@@ -1,0 +1,267 @@
+[
+  {
+    "id": "brics",
+    "name": "BRICS",
+    "acronym": "BRICS",
+    "foundingYear": 2009,
+    "memberCount": 10,
+    "overview": "BRICS is an intergovernmental organisation comprising Brazil, Russia, India, China, South Africa, and five new members (Egypt, Ethiopia, Iran, Saudi Arabia, UAE) admitted in 2024. It represents over 40% of the world's population and about 26% of global GDP. BRICS serves as a platform for emerging economies to coordinate on economic, political, and security issues.",
+    "objectives": [
+      "Promote economic cooperation and trade among member states",
+      "Reform international financial institutions to better represent emerging economies",
+      "Coordinate positions on global governance issues at the UN and G20",
+      "Develop the New Development Bank as an alternative to Western-led institutions",
+      "Enhance people-to-people and cultural exchanges"
+    ],
+    "memberCountries": [
+      { "name": "Brazil", "flag": "🇧🇷" },
+      { "name": "Russia", "flag": "🇷🇺" },
+      { "name": "India", "flag": "🇮🇳" },
+      { "name": "China", "flag": "🇨🇳" },
+      { "name": "South Africa", "flag": "🇿🇦" },
+      { "name": "Egypt", "flag": "🇪🇬" },
+      { "name": "Ethiopia", "flag": "🇪🇹" },
+      { "name": "Iran", "flag": "🇮🇷" },
+      { "name": "Saudi Arabia", "flag": "🇸🇦" },
+      { "name": "United Arab Emirates", "flag": "🇦🇪" }
+    ],
+    "indiaRole": "Founding member and one of the most influential voices within BRICS. India has hosted the BRICS summit (2016, Goa) and championed reforms to global financial institutions. India uses BRICS to balance its relationship with China while engaging Russia and the Global South.",
+    "indiaContributions": [
+      "Co-founded the New Development Bank (NDB) headquartered in Shanghai",
+      "Hosted the 2016 BRICS Summit in Goa, advancing the BRICS Action Plan",
+      "Championed the BRICS Skills Development Initiative",
+      "Advocated for UN Security Council reform within the BRICS framework",
+      "Led digital economy and fintech cooperation initiatives"
+    ],
+    "asianRegionalismImpact": "BRICS has strengthened South-South cooperation and provided Asian emerging economies with a platform to collectively negotiate with Western-dominated institutions. The New Development Bank has funded infrastructure projects across Asia, reducing dependence on the World Bank and IMF.",
+    "category": "Economic",
+    "slug": "brics"
+  },
+  {
+    "id": "saarc",
+    "name": "South Asian Association for Regional Cooperation",
+    "acronym": "SAARC",
+    "foundingYear": 1985,
+    "memberCount": 8,
+    "overview": "SAARC is the primary regional intergovernmental organisation in South Asia, comprising Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, and Sri Lanka. It aims to promote economic growth, social progress, and cultural development in the region. However, India-Pakistan tensions have significantly hampered its effectiveness.",
+    "objectives": [
+      "Accelerate economic growth and social progress in South Asia",
+      "Promote active collaboration and mutual assistance in economic, social, cultural, technical, and scientific fields",
+      "Strengthen cooperation among member states in international forums",
+      "Maintain peace and stability in the region",
+      "Establish a South Asian Free Trade Area (SAFTA)"
+    ],
+    "memberCountries": [
+      { "name": "Afghanistan", "flag": "🇦🇫" },
+      { "name": "Bangladesh", "flag": "🇧🇩" },
+      { "name": "Bhutan", "flag": "🇧🇹" },
+      { "name": "India", "flag": "🇮🇳" },
+      { "name": "Maldives", "flag": "🇲🇻" },
+      { "name": "Nepal", "flag": "🇳🇵" },
+      { "name": "Pakistan", "flag": "🇵🇰" },
+      { "name": "Sri Lanka", "flag": "🇱🇰" }
+    ],
+    "indiaRole": "Largest economy and most influential member of SAARC. India has been the primary driver of regional connectivity initiatives, including the SAARC Motor Vehicles Agreement and energy grid interconnection. However, India-Pakistan tensions have repeatedly blocked SAARC summits since 2016.",
+    "indiaContributions": [
+      "Established the SAARC Development Fund with the largest contribution",
+      "Launched the SAARC Satellite (South Asia Satellite) in 2017 for all members",
+      "Promoted the SAARC Food Bank and Agricultural Centre",
+      "Initiated the SAARC Disaster Management Centre",
+      "Championed the SAARC University in New Delhi"
+    ],
+    "asianRegionalismImpact": "SAARC represents South Asia's attempt at regional integration, though its effectiveness is constrained by the India-Pakistan rivalry. The organisation has been largely superseded by BIMSTEC for practical regional cooperation, as BIMSTEC excludes Pakistan and allows India to lead more effectively.",
+    "category": "Political",
+    "slug": "saarc"
+  },
+  {
+    "id": "g20",
+    "name": "Group of Twenty",
+    "acronym": "G20",
+    "foundingYear": 1999,
+    "memberCount": 20,
+    "overview": "The G20 is the premier forum for international economic cooperation, comprising 19 countries and the European Union. It represents about 85% of global GDP, 75% of global trade, and two-thirds of the world's population. India held the G20 Presidency in 2023, hosting the New Delhi Summit.",
+    "objectives": [
+      "Coordinate international economic and financial policy",
+      "Promote sustainable and inclusive economic growth",
+      "Reform the international financial system",
+      "Address global challenges including climate change, health, and digital economy",
+      "Represent both developed and major emerging economies in global governance"
+    ],
+    "memberCountries": [
+      { "name": "Argentina", "flag": "🇦🇷" },
+      { "name": "Australia", "flag": "🇦🇺" },
+      { "name": "Brazil", "flag": "🇧🇷" },
+      { "name": "Canada", "flag": "🇨🇦" },
+      { "name": "China", "flag": "🇨🇳" },
+      { "name": "France", "flag": "🇫🇷" },
+      { "name": "Germany", "flag": "🇩🇪" },
+      { "name": "India", "flag": "🇮🇳" },
+      { "name": "Indonesia", "flag": "🇮🇩" },
+      { "name": "Italy", "flag": "🇮🇹" },
+      { "name": "Japan", "flag": "🇯🇵" },
+      { "name": "South Korea", "flag": "🇰🇷" },
+      { "name": "Mexico", "flag": "🇲🇽" },
+      { "name": "Russia", "flag": "🇷🇺" },
+      { "name": "Saudi Arabia", "flag": "🇸🇦" },
+      { "name": "South Africa", "flag": "🇿🇦" },
+      { "name": "Turkey", "flag": "🇹🇷" },
+      { "name": "United Kingdom", "flag": "🇬🇧" },
+      { "name": "United States", "flag": "🇺🇸" },
+      { "name": "European Union", "flag": "🇪🇺" }
+    ],
+    "indiaRole": "India held the G20 Presidency in 2023 under the theme 'Vasudhaiva Kutumbakam' (One Earth, One Family, One Future). India used the presidency to champion the Global South's interests, secure the African Union's permanent membership, and advance digital public infrastructure as a global model.",
+    "indiaContributions": [
+      "Hosted the 2023 G20 New Delhi Summit with 43 heads of state/government",
+      "Secured African Union's permanent membership in the G20",
+      "Launched the Global Biofuels Alliance with 19 founding members",
+      "Advanced the India Stack digital public infrastructure model globally",
+      "Championed debt restructuring for developing nations under the Common Framework"
+    ],
+    "asianRegionalismImpact": "The G20 provides Asian economies with a seat at the global governance table. India's 2023 presidency elevated Asian and Global South perspectives in international economic policymaking, particularly on climate finance, digital economy, and debt relief for developing nations.",
+    "category": "Economic",
+    "slug": "g20"
+  },
+  {
+    "id": "sco",
+    "name": "Shanghai Cooperation Organisation",
+    "acronym": "SCO",
+    "foundingYear": 2001,
+    "memberCount": 9,
+    "overview": "The SCO is a Eurasian political, economic, and security organisation founded by China, Russia, Kazakhstan, Kyrgyzstan, Tajikistan, and Uzbekistan. India and Pakistan became full members in 2017, and Iran joined in 2023. The SCO covers about 60% of Eurasia, 40% of the world's population, and over 20% of global GDP.",
+    "objectives": [
+      "Strengthen mutual trust and good-neighbourly relations among member states",
+      "Promote effective cooperation in politics, trade, economy, science, technology, culture, and education",
+      "Jointly maintain and ensure peace, security, and stability in the region",
+      "Establish a democratic, fair, and rational new international political and economic order",
+      "Counter terrorism, separatism, and extremism (the 'Three Evils')"
+    ],
+    "memberCountries": [
+      { "name": "China", "flag": "🇨🇳" },
+      { "name": "Russia", "flag": "🇷🇺" },
+      { "name": "India", "flag": "🇮🇳" },
+      { "name": "Pakistan", "flag": "🇵🇰" },
+      { "name": "Kazakhstan", "flag": "🇰🇿" },
+      { "name": "Kyrgyzstan", "flag": "🇰🇬" },
+      { "name": "Tajikistan", "flag": "🇹🇯" },
+      { "name": "Uzbekistan", "flag": "🇺🇿" },
+      { "name": "Iran", "flag": "🇮🇷" }
+    ],
+    "indiaRole": "Full member since 2017. India uses SCO membership to engage with Central Asia, maintain dialogue with China and Pakistan in a multilateral setting, and access Eurasian connectivity corridors. India hosted the SCO Summit in 2023 (virtually) as chair.",
+    "indiaContributions": [
+      "Hosted the 2023 SCO Summit as chair (virtual format)",
+      "Promoted the International North-South Transport Corridor (INSTC) within SCO",
+      "Established the SCO Centre for Traditional Medicine in India",
+      "Contributed to SCO counter-terrorism exercises (RATS mechanism)",
+      "Championed digital connectivity and startup ecosystem cooperation"
+    ],
+    "asianRegionalismImpact": "The SCO represents a China-Russia led alternative to Western-dominated security architecture in Asia. For India, SCO membership provides access to Central Asian markets and energy resources while creating a forum for managing the complex India-China-Pakistan triangle.",
+    "category": "Security",
+    "slug": "sco"
+  },
+  {
+    "id": "bimstec",
+    "name": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+    "acronym": "BIMSTEC",
+    "foundingYear": 1997,
+    "memberCount": 7,
+    "overview": "BIMSTEC connects South Asia and Southeast Asia through the Bay of Bengal littoral states: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, and Thailand. It has emerged as India's preferred regional platform, partly because it excludes Pakistan and allows India to lead regional integration more effectively.",
+    "objectives": [
+      "Promote rapid economic development through trade, investment, and technology",
+      "Enhance connectivity across the Bay of Bengal region",
+      "Cooperate on counter-terrorism, transnational crime, and disaster management",
+      "Develop energy cooperation including cross-border electricity trade",
+      "Strengthen people-to-people ties through tourism and cultural exchange"
+    ],
+    "memberCountries": [
+      { "name": "Bangladesh", "flag": "🇧🇩" },
+      { "name": "Bhutan", "flag": "🇧🇹" },
+      { "name": "India", "flag": "🇮🇳" },
+      { "name": "Myanmar", "flag": "🇲🇲" },
+      { "name": "Nepal", "flag": "🇳🇵" },
+      { "name": "Sri Lanka", "flag": "🇱🇰" },
+      { "name": "Thailand", "flag": "🇹🇭" }
+    ],
+    "indiaRole": "India is the largest economy and the de facto leader of BIMSTEC. India has championed BIMSTEC as the primary vehicle for its Neighbourhood First and Act East policies, investing in connectivity projects and hosting the BIMSTEC Secretariat support.",
+    "indiaContributions": [
+      "Led the BIMSTEC Free Trade Agreement negotiations",
+      "Funded the Kaladan Multi-Modal Transit Transport Project connecting India to Myanmar",
+      "Established the BIMSTEC Centre for Weather and Climate (in India)",
+      "Hosted multiple BIMSTEC summits and ministerial meetings",
+      "Promoted the BIMSTEC Master Plan for Connectivity"
+    ],
+    "asianRegionalismImpact": "BIMSTEC bridges South and Southeast Asia, creating a sub-regional grouping that complements ASEAN and SAARC. It has become increasingly important as SAARC has stalled, offering India a platform to advance regional integration without the India-Pakistan deadlock.",
+    "category": "Economic",
+    "slug": "bimstec"
+  },
+  {
+    "id": "quad",
+    "name": "Quadrilateral Security Dialogue",
+    "acronym": "QUAD",
+    "foundingYear": 2007,
+    "memberCount": 4,
+    "overview": "The Quad is an informal strategic forum comprising Australia, India, Japan, and the United States. Revived in 2017 and elevated to leader-level summits in 2021, the Quad focuses on a free and open Indo-Pacific, vaccine diplomacy, climate change, critical technologies, and maritime security.",
+    "objectives": [
+      "Promote a free, open, and prosperous Indo-Pacific region",
+      "Ensure freedom of navigation and overflight in the Indo-Pacific",
+      "Cooperate on critical and emerging technologies including semiconductors and 5G",
+      "Coordinate on climate change, clean energy, and infrastructure",
+      "Deliver vaccines and health security to the Indo-Pacific region"
+    ],
+    "memberCountries": [
+      { "name": "Australia", "flag": "🇦🇺" },
+      { "name": "India", "flag": "🇮🇳" },
+      { "name": "Japan", "flag": "🇯🇵" },
+      { "name": "United States", "flag": "🇺🇸" }
+    ],
+    "indiaRole": "India is a founding member and the only South Asian nation in the Quad. India participates in Quad leader summits and working groups on vaccines, critical technologies, and maritime security. India maintains strategic autonomy within the Quad, declining to frame it as an anti-China alliance.",
+    "indiaContributions": [
+      "Committed to producing 1 billion COVID-19 vaccine doses for the Indo-Pacific under the Quad Vaccine Partnership",
+      "Participated in Malabar naval exercises with Quad partners",
+      "Co-led the Quad Critical and Emerging Technology Working Group",
+      "Hosted the 2023 Quad Leaders' Summit in Hiroshima (as participant)",
+      "Advanced the Quad Infrastructure Coordination Group for regional development"
+    ],
+    "asianRegionalismImpact": "The Quad represents a values-based security architecture in the Indo-Pacific, distinct from China-led frameworks. For India, the Quad provides strategic depth and technology partnerships while reinforcing the rules-based international order in the Indo-Pacific.",
+    "category": "Security",
+    "slug": "quad"
+  },
+  {
+    "id": "asean-india",
+    "name": "ASEAN-India Partnership",
+    "acronym": "ASEAN+India",
+    "foundingYear": 1992,
+    "memberCount": 11,
+    "overview": "India has been an ASEAN Dialogue Partner since 1992 and a Summit-level partner since 2002. The ASEAN-India relationship was elevated to a Comprehensive Strategic Partnership in 2022. India's Act East Policy (formerly Look East) is centred on deepening engagement with ASEAN's 10 member states.",
+    "objectives": [
+      "Deepen trade and investment linkages through the ASEAN-India Free Trade Agreement",
+      "Enhance maritime security cooperation in the Indo-Pacific",
+      "Promote digital connectivity and the digital economy",
+      "Strengthen people-to-people ties through education, tourism, and culture",
+      "Coordinate on regional security issues including the South China Sea"
+    ],
+    "memberCountries": [
+      { "name": "Brunei", "flag": "🇧🇳" },
+      { "name": "Cambodia", "flag": "🇰🇭" },
+      { "name": "Indonesia", "flag": "🇮🇩" },
+      { "name": "Laos", "flag": "🇱🇦" },
+      { "name": "Malaysia", "flag": "🇲🇾" },
+      { "name": "Myanmar", "flag": "🇲🇲" },
+      { "name": "Philippines", "flag": "🇵🇭" },
+      { "name": "Singapore", "flag": "🇸🇬" },
+      { "name": "Thailand", "flag": "🇹🇭" },
+      { "name": "Vietnam", "flag": "🇻🇳" },
+      { "name": "India", "flag": "🇮🇳" }
+    ],
+    "indiaRole": "Dialogue Partner and Comprehensive Strategic Partner. India is the largest democracy engaging with ASEAN and a key counterbalance to China's influence in Southeast Asia. India participates in the East Asia Summit, ASEAN Regional Forum, and ASEAN Defence Ministers' Meeting Plus.",
+    "indiaContributions": [
+      "Established the ASEAN-India Fund for cultural and educational exchanges",
+      "Launched the ASEAN-India Science and Technology Development Fund",
+      "Committed $1 billion for ASEAN-India connectivity projects",
+      "Promoted the India-Myanmar-Thailand Trilateral Highway",
+      "Hosted the ASEAN-India Commemorative Summit in New Delhi (2018)"
+    ],
+    "asianRegionalismImpact": "The ASEAN-India partnership is central to India's Act East Policy and its vision of an inclusive Indo-Pacific. India's engagement with ASEAN provides Southeast Asian nations with an alternative partner to China, strengthening ASEAN centrality in regional architecture.",
+    "category": "Political",
+    "slug": "asean-india"
+  }
+]

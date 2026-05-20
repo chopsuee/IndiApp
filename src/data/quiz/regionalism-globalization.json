@@ -1,0 +1,97 @@
+[
+  {
+    "id": "rg-01",
+    "category": "regionalism-globalization",
+    "question": "What percentage of India's total merchandise trade is conducted with Asian nations?",
+    "options": ["About 30%", "About 45%", "About 60%", "About 75%"],
+    "correctAnswerIndex": 2,
+    "explanation": "India's trade with Asian nations accounts for approximately 60% of its total merchandise trade, reflecting deep economic interdependence. India's trade with Asia exceeds $600 billion annually, with ASEAN, China, the UAE, and Saudi Arabia being major partners.",
+    "xpValue": 15
+  },
+  {
+    "id": "rg-02",
+    "category": "regionalism-globalization",
+    "question": "Which regional trade agreement connects India with Southeast Asian nations?",
+    "options": ["RCEP", "ASEAN-India FTA", "CPTPP", "SAFTA"],
+    "correctAnswerIndex": 1,
+    "explanation": "The ASEAN-India Free Trade Agreement (AIFTA), signed in 2009, governs trade between India and the 10 ASEAN member states. India chose not to join the Regional Comprehensive Economic Partnership (RCEP) in 2019, citing concerns about Chinese goods flooding the Indian market.",
+    "xpValue": 10
+  },
+  {
+    "id": "rg-03",
+    "category": "regionalism-globalization",
+    "question": "India declined to join which major Asia-Pacific trade agreement in 2019, citing concerns about Chinese competition?",
+    "options": ["CPTPP", "RCEP", "TPP", "APEC"],
+    "correctAnswerIndex": 1,
+    "explanation": "India withdrew from the Regional Comprehensive Economic Partnership (RCEP) negotiations in November 2019, citing concerns about the trade deficit with China, inadequate protection for Indian services exports, and the risk of Chinese goods flooding the Indian market. RCEP was signed by 15 Asia-Pacific nations in 2020.",
+    "xpValue": 15
+  },
+  {
+    "id": "rg-04",
+    "category": "regionalism-globalization",
+    "question": "India's 'China+1' strategy refers to which concept?",
+    "options": [
+      "India's policy of engaging China plus one other major power",
+      "Attracting companies diversifying supply chains away from China",
+      "India's trade surplus with China plus one other country",
+      "A diplomatic framework for managing India-China relations"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "India's 'China+1' strategy refers to India's positioning as an alternative manufacturing destination for companies seeking to diversify their supply chains away from China. This strategy gained momentum after the COVID-19 pandemic exposed supply chain vulnerabilities and amid US-China trade tensions.",
+    "xpValue": 20
+  },
+  {
+    "id": "rg-05",
+    "category": "regionalism-globalization",
+    "question": "How many people worldwide practice yoga, making it one of India's most successful soft power exports?",
+    "options": ["100 million", "200 million", "300 million", "500 million"],
+    "correctAnswerIndex": 2,
+    "explanation": "An estimated 300 million people practice yoga worldwide. The UN adopted June 21 as International Day of Yoga in 2014 following India's proposal. Yoga is one of India's most successful soft power exports, practiced in 177 countries and contributing to India's global cultural influence.",
+    "xpValue": 10
+  },
+  {
+    "id": "rg-06",
+    "category": "regionalism-globalization",
+    "question": "India's digital public infrastructure model (UPI, Aadhaar) is being adopted globally. In which country was UPI first made operational outside India?",
+    "options": ["UAE", "Singapore", "Nepal", "Bhutan"],
+    "correctAnswerIndex": 1,
+    "explanation": "Singapore was the first country where UPI (Unified Payments Interface) was made operational outside India, through a linkage between UPI and Singapore's PayNow system launched in February 2023. UPI is now operational in multiple countries including UAE, France, Mauritius, and several SAARC nations.",
+    "xpValue": 20
+  },
+  {
+    "id": "rg-07",
+    "category": "regionalism-globalization",
+    "question": "What is the approximate annual revenue of India's IT services industry, making it the world's largest IT services exporter?",
+    "options": ["$100 billion", "$150 billion", "$200 billion", "$250 billion"],
+    "correctAnswerIndex": 3,
+    "explanation": "India's IT services industry generates over $250 billion annually, making it the world's largest IT services exporter. This technological strength underpins India's cooperation and competition in the global digital economy and is a key driver of India's globalisation.",
+    "xpValue": 15
+  },
+  {
+    "id": "rg-08",
+    "category": "regionalism-globalization",
+    "question": "The India-Middle East-Europe Economic Corridor (IMEC), announced at the 2023 G20 Summit, is positioned as an alternative to which Chinese initiative?",
+    "options": ["Asian Infrastructure Investment Bank", "Belt and Road Initiative", "Shanghai Cooperation Organisation", "Regional Comprehensive Economic Partnership"],
+    "correctAnswerIndex": 1,
+    "explanation": "The India-Middle East-Europe Economic Corridor (IMEC) is positioned as a transparent, rules-based alternative to China's Belt and Road Initiative (BRI). Announced at the 2023 G20 New Delhi Summit, IMEC connects India to Europe via the UAE, Saudi Arabia, Jordan, and Israel through rail and shipping links.",
+    "xpValue": 15
+  },
+  {
+    "id": "rg-09",
+    "category": "regionalism-globalization",
+    "question": "Which principle best describes India's foreign policy approach that allows it to engage with all major powers without formal alignment?",
+    "options": ["Non-Alignment", "Strategic Autonomy", "Multi-Alignment", "Equidistance"],
+    "correctAnswerIndex": 1,
+    "explanation": "India's foreign policy is guided by 'Strategic Autonomy' — the ability to engage with all major powers (US, Russia, China, EU) without formal alignment with any bloc. This evolved from the Cold War-era Non-Alignment Movement and allows India to pursue its national interests independently.",
+    "xpValue": 20
+  },
+  {
+    "id": "rg-10",
+    "category": "regionalism-globalization",
+    "question": "India's merchandise exports exceeded what value in 2023, reflecting its integration into global trade?",
+    "options": ["$250 billion", "$350 billion", "$450 billion", "$550 billion"],
+    "correctAnswerIndex": 2,
+    "explanation": "India's merchandise exports exceeded $450 billion in 2023, with global markets absorbing IT services, pharmaceuticals, engineering goods, and textiles. India aims to reach $1 trillion in merchandise exports by 2030 as part of its globalisation strategy.",
+    "xpValue": 15
+  }
+]

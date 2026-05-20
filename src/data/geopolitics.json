@@ -1,0 +1,74 @@
+[
+  {
+    "id": "trade-economics",
+    "dimension": "Trade & Economics",
+    "cooperationScore": 72,
+    "competitionScore": 58,
+    "cooperationDescription": "India cooperates with Asian nations through multiple trade agreements — ASEAN-India FTA, India-Japan CEPA, India-Korea CEPA, India-UAE CEPA, and BIMSTEC FTA negotiations. India's trade with Asia exceeds $600 billion annually. The New Development Bank (BRICS) and Asian Infrastructure Investment Bank (AIIB) provide cooperative financing frameworks.",
+    "competitionDescription": "India competes with China for manufacturing investment, export markets, and economic influence across Asia. India's 'China+1' strategy attracts companies diversifying supply chains away from China. India and China compete for infrastructure financing influence in South and Southeast Asia, with India's development assistance countering China's Belt and Road Initiative.",
+    "statisticLabel": "India-Asia Trade Volume",
+    "statisticValue": 600,
+    "statisticUnit": "$ billion/year",
+    "tooltipNote": "India's trade with Asian nations accounts for approximately 60% of its total merchandise trade, reflecting deep economic interdependence despite geopolitical tensions."
+  },
+  {
+    "id": "security-defence",
+    "dimension": "Security & Defence",
+    "cooperationScore": 55,
+    "competitionScore": 75,
+    "cooperationDescription": "India cooperates on security through the Quad (with US, Japan, Australia), bilateral defence partnerships with Japan, South Korea, Vietnam, and Singapore, and multilateral frameworks like the SCO and BIMSTEC Security Pillar. India is one of the world's largest contributors to UN peacekeeping operations, with over 6,000 troops deployed.",
+    "competitionDescription": "India faces security competition primarily from China (border disputes, naval expansion in the Indian Ocean) and Pakistan (cross-border terrorism, nuclear standoff). China's String of Pearls strategy — naval bases and ports in Myanmar, Sri Lanka, Pakistan, and Bangladesh — directly challenges India's maritime security. The India-China border dispute along the 3,488 km LAC remains the most significant security competition.",
+    "statisticLabel": "UN Peacekeeping Troops",
+    "statisticValue": 6000,
+    "statisticUnit": "personnel deployed",
+    "tooltipNote": "India has contributed over 250,000 personnel to UN peacekeeping missions since 1950, making it one of the largest cumulative contributors. This reflects India's commitment to global security cooperation."
+  },
+  {
+    "id": "diplomacy-multilateral",
+    "dimension": "Diplomacy & Multilateralism",
+    "cooperationScore": 78,
+    "competitionScore": 45,
+    "cooperationDescription": "India engages cooperatively in multilateral forums — G20, BRICS, SCO, ASEAN, NAM, and the UN. India's 2023 G20 presidency was a landmark in multilateral diplomacy, securing the African Union's permanent membership and advancing Global South priorities. India maintains diplomatic relations with 193 UN member states.",
+    "competitionDescription": "India competes diplomatically with China for influence in South Asia, Southeast Asia, and Africa. China's growing presence in India's neighbourhood — through BRI projects in Pakistan, Sri Lanka, Bangladesh, and Nepal — is a direct diplomatic challenge. India and China also compete for leadership of the Global South and for permanent UNSC membership.",
+    "statisticLabel": "Diplomatic Missions Worldwide",
+    "statisticValue": 193,
+    "statisticUnit": "countries with relations",
+    "tooltipNote": "India maintains diplomatic relations with all 193 UN member states and has 188 resident missions abroad, reflecting its global diplomatic reach and commitment to multilateral engagement."
+  },
+  {
+    "id": "connectivity-infrastructure",
+    "dimension": "Connectivity & Infrastructure",
+    "cooperationScore": 48,
+    "competitionScore": 68,
+    "cooperationDescription": "India cooperates on connectivity through the International North-South Transport Corridor (INSTC), India-Myanmar-Thailand Trilateral Highway, Kaladan Multi-Modal Transit Transport Project, and cross-border energy grids with Nepal and Bhutan. India's development assistance to neighbours focuses on roads, ports, and digital infrastructure.",
+    "competitionDescription": "India's connectivity initiatives directly compete with China's Belt and Road Initiative (BRI). India has declined to join BRI, citing sovereignty concerns over the China-Pakistan Economic Corridor (CPEC) passing through Pakistan-occupied Kashmir. India's alternative connectivity frameworks — the IMEC (India-Middle East-Europe Economic Corridor) and the Quad's Partnership for Global Infrastructure and Investment — are positioned as transparent, rules-based alternatives to BRI.",
+    "statisticLabel": "Development Assistance to Neighbours",
+    "statisticValue": 5,
+    "statisticUnit": "$ billion committed",
+    "tooltipNote": "India has committed over $5 billion in development assistance to its immediate neighbours through the Indian Development and Economic Assistance Scheme (IDEAS), focusing on connectivity, energy, and digital infrastructure."
+  },
+  {
+    "id": "technology-innovation",
+    "dimension": "Technology & Innovation",
+    "cooperationScore": 65,
+    "competitionScore": 62,
+    "cooperationDescription": "India cooperates on technology through the US-India initiative on Critical and Emerging Technology (iCET), Quad Critical Technology Working Group, and bilateral tech partnerships with Japan, South Korea, and Israel. India's digital public infrastructure (UPI, Aadhaar) is being adopted by multiple Asian nations. ISRO provides satellite services to South Asian neighbours.",
+    "competitionDescription": "India competes with China in the global technology arena — for semiconductor supply chain positioning, 5G infrastructure deployment, AI development, and space exploration. India's ban on Chinese apps (200+ including TikTok) and restrictions on Chinese telecom equipment reflect technology competition. India and China are both racing to develop indigenous semiconductor capabilities and space programmes.",
+    "statisticLabel": "IT Services Export Revenue",
+    "statisticValue": 250,
+    "statisticUnit": "$ billion/year",
+    "tooltipNote": "India's IT services industry generates over $250 billion annually, making it the world's largest IT services exporter. This technological strength underpins India's cooperation and competition in the digital economy."
+  },
+  {
+    "id": "cultural-soft-power",
+    "dimension": "Cultural & Soft Power",
+    "cooperationScore": 82,
+    "competitionScore": 28,
+    "cooperationDescription": "India's cultural soft power is predominantly cooperative — Bollywood, yoga, Ayurveda, Indian cuisine, and the Indian diaspora create goodwill across Asia. India's International Day of Yoga (adopted by the UN in 2014) is celebrated in 177 countries. The Indian Council for Cultural Relations (ICCR) operates cultural centres in 35 countries. India's civilisational heritage — Buddhism, Hinduism, Sanskrit — connects it to cultures across Asia.",
+    "competitionDescription": "India competes with China's soft power initiatives — Confucius Institutes, Chinese cinema, and BRI's narrative of development partnership. India's soft power is generally seen as more organic and credible than China's state-directed cultural diplomacy. In South and Southeast Asia, Indian cultural influence (Bollywood, cricket, yoga) significantly outpaces Chinese cultural influence.",
+    "statisticLabel": "Yoga Practitioners Worldwide",
+    "statisticValue": 300,
+    "statisticUnit": "million people",
+    "tooltipNote": "An estimated 300 million people practice yoga worldwide, making it one of India's most successful soft power exports. The UN's adoption of June 21 as International Day of Yoga reflects India's cultural diplomacy success."
+  }
+]

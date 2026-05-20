@@ -1,0 +1,68 @@
+[
+  {
+    "topic": "Trade Integration",
+    "regionalismValue": "high",
+    "globalizationValue": "high",
+    "regionalismDescription": "Regional trade agreements like SAFTA, ASEAN-India FTA, and BIMSTEC FTA create preferential market access within Asia. India's intra-regional trade with South and Southeast Asia has grown significantly, with ASEAN becoming India's 4th largest trading partner.",
+    "globalizationDescription": "India's integration into global value chains through WTO membership and bilateral FTAs with the UAE, Australia, and others drives export growth. India's merchandise exports exceeded $450 billion in 2023, with global markets absorbing IT services, pharmaceuticals, and engineering goods.",
+    "infographicData": {
+      "Regional Trade Share (%)": 28,
+      "Global Trade Share (%)": 72
+    }
+  },
+  {
+    "topic": "Security Architecture",
+    "regionalismValue": "medium",
+    "globalizationValue": "medium",
+    "regionalismDescription": "Regional security frameworks like the SCO, SAARC Regional Centre for Counter-Terrorism, and BIMSTEC Security Pillar address terrorism, transnational crime, and disaster management. However, India-Pakistan tensions limit the effectiveness of South Asian security cooperation.",
+    "globalizationDescription": "India's participation in global security frameworks — UN peacekeeping (one of the largest troop contributors), the Nuclear Suppliers Group, and bilateral defence partnerships with the US, France, Russia, and Israel — provides a global security architecture. India's defence imports and exports are increasingly globalised.",
+    "infographicData": {
+      "Regional Security Cooperation Score": 45,
+      "Global Security Engagement Score": 68
+    }
+  },
+  {
+    "topic": "Diplomatic Influence",
+    "regionalismValue": "high",
+    "globalizationValue": "high",
+    "regionalismDescription": "India is the dominant diplomatic power in South Asia and a key player in Southeast and East Asian diplomacy. India's Neighbourhood First policy, Act East Policy, and leadership of BIMSTEC give it significant regional diplomatic leverage. India's 2023 G20 presidency amplified its regional voice.",
+    "globalizationDescription": "India's permanent UNSC membership bid, G20 leadership, and role in multilateral institutions like the WTO, IMF, and World Bank give it global diplomatic reach. India's 'strategic autonomy' doctrine allows it to engage with all major powers — US, Russia, China, EU — without formal alignment.",
+    "infographicData": {
+      "Regional Diplomatic Influence Score": 78,
+      "Global Diplomatic Influence Score": 72
+    }
+  },
+  {
+    "topic": "Connectivity Infrastructure",
+    "regionalismValue": "medium",
+    "globalizationValue": "low",
+    "regionalismDescription": "India is investing heavily in regional connectivity: the India-Myanmar-Thailand Trilateral Highway, Kaladan Multi-Modal Transit Transport Project, INSTC (International North-South Transport Corridor), and cross-border energy grids with Nepal and Bhutan. These projects aim to physically integrate India with its neighbourhood.",
+    "globalizationDescription": "India's global connectivity is primarily through maritime trade routes (80% of trade by volume) and digital infrastructure. India's ports, airports, and logistics networks are being upgraded under the PM Gati Shakti National Master Plan, but global connectivity infrastructure investment lags behind regional projects.",
+    "infographicData": {
+      "Regional Connectivity Investment ($ billion)": 15,
+      "Global Connectivity Investment ($ billion)": 8
+    }
+  },
+  {
+    "topic": "Cultural Ties",
+    "regionalismValue": "high",
+    "globalizationValue": "medium",
+    "regionalismDescription": "India's civilisational influence across Asia is profound — Buddhism, Hinduism, Sanskrit, and Indian classical arts have shaped cultures from Afghanistan to Japan. The Indian diaspora in Southeast Asia (Malaysia, Singapore, Myanmar) and the Gulf maintains strong cultural links. Bollywood and Indian cuisine are pan-Asian phenomena.",
+    "globalizationDescription": "India's global cultural footprint is growing through Bollywood (distributed in 100+ countries), yoga (practiced by 300 million people globally), and the Indian diaspora (18 million strong). India's soft power is increasingly recognised globally, though it remains stronger regionally than globally.",
+    "infographicData": {
+      "Regional Cultural Influence Score": 82,
+      "Global Cultural Influence Score": 58
+    }
+  },
+  {
+    "topic": "Technology Cooperation",
+    "regionalismValue": "medium",
+    "globalizationValue": "high",
+    "regionalismDescription": "India is exporting its digital public infrastructure (UPI, Aadhaar, DigiLocker) to neighbouring countries — UPI is operational in Singapore, UAE, France, and several SAARC nations. India's ISRO provides satellite services to South Asian nations. Regional technology cooperation is growing but remains nascent.",
+    "globalizationDescription": "India is a global technology powerhouse — the world's largest IT services exporter ($250 billion industry), home to the third-largest startup ecosystem, and a key node in global semiconductor and electronics supply chains. India's technology partnerships with the US (iCET), EU, Japan, and Australia are primarily global in nature.",
+    "infographicData": {
+      "Regional Tech Cooperation Score": 52,
+      "Global Tech Cooperation Score": 85
+    }
+  }
+]

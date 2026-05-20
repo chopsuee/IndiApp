@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ro-01",
+    "category": "regional-organizations",
+    "question": "In which year was SAARC (South Asian Association for Regional Cooperation) founded?",
+    "options": ["1975", "1980", "1985", "1990"],
+    "correctAnswerIndex": 2,
+    "explanation": "SAARC was founded on 8 December 1985 in Dhaka, Bangladesh, with seven founding members: Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, and Sri Lanka. Afghanistan joined as the eighth member in 2007.",
+    "xpValue": 10
+  },
+  {
+    "id": "ro-02",
+    "category": "regional-organizations",
+    "question": "What does BIMSTEC stand for?",
+    "options": [
+      "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+      "Bangladesh-India-Myanmar-Sri Lanka-Thailand Economic Cooperation",
+      "Bay of Bengal International Maritime and Security Treaty Economic Council",
+      "Bangladesh-India-Myanmar-Sri Lanka-Thailand-Economic Community"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "BIMSTEC stands for Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation. It was founded in 1997 and connects South Asia and Southeast Asia through the Bay of Bengal littoral states: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, and Thailand.",
+    "xpValue": 15
+  },
+  {
+    "id": "ro-03",
+    "category": "regional-organizations",
+    "question": "Which city hosts the headquarters of the New Development Bank (NDB), established by BRICS nations?",
+    "options": ["New Delhi", "Beijing", "Shanghai", "Moscow"],
+    "correctAnswerIndex": 2,
+    "explanation": "The New Development Bank (NDB), established by BRICS nations in 2014, is headquartered in Shanghai, China. It was established as an alternative to Western-dominated institutions like the World Bank and IMF, with an initial authorised capital of $100 billion.",
+    "xpValue": 15
+  },
+  {
+    "id": "ro-04",
+    "category": "regional-organizations",
+    "question": "India became a full member of the Shanghai Cooperation Organisation (SCO) in which year?",
+    "options": ["2001", "2005", "2017", "2020"],
+    "correctAnswerIndex": 2,
+    "explanation": "India and Pakistan became full members of the SCO at the Astana Summit in June 2017. India had been an observer state since 2005. The SCO was originally founded in 2001 by China, Russia, Kazakhstan, Kyrgyzstan, Tajikistan, and Uzbekistan.",
+    "xpValue": 15
+  },
+  {
+    "id": "ro-05",
+    "category": "regional-organizations",
+    "question": "Which organisation did India host as chair in 2023, conducting the summit in a virtual format?",
+    "options": ["BRICS", "G20", "SCO", "SAARC"],
+    "correctAnswerIndex": 2,
+    "explanation": "India chaired the SCO (Shanghai Cooperation Organisation) in 2023 and hosted the SCO Summit in a virtual format. India also hosted the G20 Summit in 2023 in New Delhi (in-person), but the SCO summit was conducted virtually.",
+    "xpValue": 20
+  },
+  {
+    "id": "ro-06",
+    "category": "regional-organizations",
+    "question": "The Quad (Quadrilateral Security Dialogue) comprises India, the United States, Japan, and which fourth country?",
+    "options": ["South Korea", "Australia", "France", "Singapore"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Quad comprises India, the United States, Japan, and Australia. It was originally formed in 2007 following the 2004 Indian Ocean tsunami response, revived in 2017, and elevated to leader-level summits in 2021. It focuses on a free and open Indo-Pacific.",
+    "xpValue": 10
+  },
+  {
+    "id": "ro-07",
+    "category": "regional-organizations",
+    "question": "Under what theme did India hold the G20 Presidency in 2023?",
+    "options": [
+      "Building Back Better",
+      "Vasudhaiva Kutumbakam — One Earth, One Family, One Future",
+      "Recover Together, Recover Stronger",
+      "Inclusive, Sustainable, Resilient"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "India held the G20 Presidency in 2023 under the theme 'Vasudhaiva Kutumbakam — One Earth, One Family, One Future', a Sanskrit phrase from the Maha Upanishad. The New Delhi Summit secured the African Union's permanent G20 membership and launched the Global Biofuels Alliance.",
+    "xpValue": 15
+  },
+  {
+    "id": "ro-08",
+    "category": "regional-organizations",
+    "question": "Which regional organisation has been largely paralysed since 2016 due to India-Pakistan tensions?",
+    "options": ["BIMSTEC", "SCO", "SAARC", "ASEAN"],
+    "correctAnswerIndex": 2,
+    "explanation": "SAARC has not held a summit since 2016, when India boycotted the Islamabad summit following the Uri terrorist attack. India-Pakistan tensions have repeatedly blocked SAARC's functioning, leading India to increasingly favour BIMSTEC as its preferred regional platform.",
+    "xpValue": 10
+  },
+  {
+    "id": "ro-09",
+    "category": "regional-organizations",
+    "question": "The RIC (Russia-India-China) trilateral grouping was initiated by which Indian Prime Minister?",
+    "options": ["Indira Gandhi", "Rajiv Gandhi", "Atal Bihari Vajpayee", "Manmohan Singh"],
+    "correctAnswerIndex": 2,
+    "explanation": "The RIC (Russia-India-China) trilateral grouping was initiated by Indian Prime Minister Atal Bihari Vajpayee in 1998. The first RIC Foreign Ministers' meeting was held in 2002. The grouping aims to coordinate positions on global issues among three major Eurasian powers.",
+    "xpValue": 20
+  },
+  {
+    "id": "ro-10",
+    "category": "regional-organizations",
+    "question": "How many new members joined BRICS in 2024, expanding it from 5 to 10 members?",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswerIndex": 2,
+    "explanation": "Five new members joined BRICS in 2024: Egypt, Ethiopia, Iran, Saudi Arabia, and the United Arab Emirates. This expansion was announced at the 2023 BRICS Summit in Johannesburg, South Africa, expanding the grouping from the original 5 (Brazil, Russia, India, China, South Africa) to 10 members.",
+    "xpValue": 15
+  }
+]

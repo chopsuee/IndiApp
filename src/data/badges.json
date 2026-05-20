@@ -1,0 +1,91 @@
+[
+  {
+    "id": "map-explorer",
+    "name": "Map Explorer",
+    "description": "Completed the Map & Geography quiz category",
+    "iconName": "Map",
+    "unlockCondition": {
+      "type": "category_complete",
+      "category": "map-geography"
+    }
+  },
+  {
+    "id": "org-scholar",
+    "name": "Organisation Scholar",
+    "description": "Completed the Regional Organisations quiz category",
+    "iconName": "Building2",
+    "unlockCondition": {
+      "type": "category_complete",
+      "category": "regional-organizations"
+    }
+  },
+  {
+    "id": "history-buff",
+    "name": "History Buff",
+    "description": "Completed the Timeline & History quiz category",
+    "iconName": "Clock",
+    "unlockCondition": {
+      "type": "category_complete",
+      "category": "timeline-history"
+    }
+  },
+  {
+    "id": "global-thinker",
+    "name": "Global Thinker",
+    "description": "Completed the Regionalism vs Globalisation quiz category",
+    "iconName": "Globe",
+    "unlockCondition": {
+      "type": "category_complete",
+      "category": "regionalism-globalization"
+    }
+  },
+  {
+    "id": "geopolitics-analyst",
+    "name": "Geopolitics Analyst",
+    "description": "Completed the Geopolitics quiz category",
+    "iconName": "Target",
+    "unlockCondition": {
+      "type": "category_complete",
+      "category": "geopolitics"
+    }
+  },
+  {
+    "id": "perfect-score",
+    "name": "Perfect Score",
+    "description": "Achieved a perfect score (100%) in any quiz category",
+    "iconName": "Star",
+    "unlockCondition": {
+      "type": "perfect_score",
+      "minScore": 1.0
+    }
+  },
+  {
+    "id": "xp-100",
+    "name": "Rising Scholar",
+    "description": "Earned 100 XP across all quiz categories",
+    "iconName": "Award",
+    "unlockCondition": {
+      "type": "xp_threshold",
+      "xpThreshold": 100
+    }
+  },
+  {
+    "id": "xp-500",
+    "name": "Knowledge Champion",
+    "description": "Earned 500 XP across all quiz categories",
+    "iconName": "Trophy",
+    "unlockCondition": {
+      "type": "xp_threshold",
+      "xpThreshold": 500
+    }
+  },
+  {
+    "id": "all-categories",
+    "name": "Asia Expert",
+    "description": "Completed all five quiz categories",
+    "iconName": "Crown",
+    "unlockCondition": {
+      "type": "all_categories"
+    }
+  }
+]

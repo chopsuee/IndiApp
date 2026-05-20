@@ -1,0 +1,92 @@
+[
+  {
+    "id": "th-01",
+    "category": "timeline-history",
+    "question": "In which year did India conduct its first nuclear test, codenamed 'Smiling Buddha'?",
+    "options": ["1968", "1971", "1974", "1978"],
+    "correctAnswerIndex": 2,
+    "explanation": "India conducted its first nuclear test, Operation Smiling Buddha, on 18 May 1974 at Pokhran, Rajasthan. India described it as a 'peaceful nuclear explosion'. It made India the sixth nation to test a nuclear device and was driven partly by China's 1964 nuclear test.",
+    "xpValue": 10
+  },
+  {
+    "id": "th-02",
+    "category": "timeline-history",
+    "question": "The Panchsheel Agreement, establishing Five Principles of Peaceful Coexistence, was signed between India and China in which year?",
+    "options": ["1950", "1954", "1958", "1962"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Panchsheel Agreement was signed between India and China on 29 April 1954. The five principles were: mutual respect for sovereignty and territorial integrity, mutual non-aggression, mutual non-interference, equality and mutual benefit, and peaceful coexistence. The agreement proved fragile and was shattered by the 1962 Sino-Indian War.",
+    "xpValue": 10
+  },
+  {
+    "id": "th-03",
+    "category": "timeline-history",
+    "question": "India's Look East Policy, which later became the Act East Policy, was launched in which year?",
+    "options": ["1985", "1991", "1998", "2004"],
+    "correctAnswerIndex": 1,
+    "explanation": "India's Look East Policy was launched in 1991 under Prime Minister Narasimha Rao and Finance Minister Manmohan Singh, alongside India's economic liberalisation. It aimed to engage Southeast Asian economies. PM Modi upgraded it to the Act East Policy in 2014, with greater emphasis on security and connectivity.",
+    "xpValue": 15
+  },
+  {
+    "id": "th-04",
+    "category": "timeline-history",
+    "question": "The India-US Civil Nuclear Agreement, which ended India's nuclear isolation, was finalised in which year?",
+    "options": ["2005", "2006", "2007", "2008"],
+    "correctAnswerIndex": 3,
+    "explanation": "The India-US Civil Nuclear Agreement (123 Agreement) was announced in July 2005 by PM Manmohan Singh and President George W. Bush, but was finalised and signed in October 2008 after receiving approval from the US Congress and the Nuclear Suppliers Group (NSG). It recognised India as a responsible nuclear state outside the NPT.",
+    "xpValue": 15
+  },
+  {
+    "id": "th-05",
+    "category": "timeline-history",
+    "question": "The Bandung Conference, which laid the groundwork for the Non-Aligned Movement, was held in which year?",
+    "options": ["1950", "1953", "1955", "1961"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Bandung Conference was held in April 1955 in Bandung, Indonesia. It brought together 29 newly independent Asian and African nations. India's PM Nehru, along with Egypt's Nasser, Indonesia's Sukarno, Ghana's Nkrumah, and Yugoslavia's Tito, emerged as leading voices of the Non-Aligned Movement.",
+    "xpValue": 10
+  },
+  {
+    "id": "th-06",
+    "category": "timeline-history",
+    "question": "How many Pakistani troops surrendered to India in the 1971 Bangladesh Liberation War — the largest military surrender since World War II?",
+    "options": ["45,000", "65,000", "93,000", "120,000"],
+    "correctAnswerIndex": 2,
+    "explanation": "93,000 Pakistani troops surrendered to the Indian Army and Mukti Bahini (Bangladesh liberation forces) on 16 December 1971 in Dhaka. This was the largest military surrender since World War II and led to the creation of Bangladesh as an independent nation.",
+    "xpValue": 20
+  },
+  {
+    "id": "th-07",
+    "category": "timeline-history",
+    "question": "India's Chandrayaan-3 mission made India the first country to land near the lunar south pole in which year?",
+    "options": ["2019", "2021", "2022", "2023"],
+    "correctAnswerIndex": 3,
+    "explanation": "India's Chandrayaan-3 Vikram lander touched down near the lunar south pole on 23 August 2023. India became the fourth country to achieve a soft lunar landing and the first to land near the south pole. The mission cost approximately $75 million — a fraction of comparable missions by other space agencies.",
+    "xpValue": 10
+  },
+  {
+    "id": "th-08",
+    "category": "timeline-history",
+    "question": "The Galwan Valley clash between Indian and Chinese troops, the worst Sino-Indian military confrontation since 1967, occurred in which year?",
+    "options": ["2017", "2018", "2019", "2020"],
+    "correctAnswerIndex": 3,
+    "explanation": "The Galwan Valley clash occurred in June 2020 in eastern Ladakh. It resulted in the deaths of 20 Indian soldiers and an unspecified number of Chinese troops. India responded with economic measures including banning 200+ Chinese apps and restrictions on Chinese FDI.",
+    "xpValue": 10
+  },
+  {
+    "id": "th-09",
+    "category": "timeline-history",
+    "question": "India hosted the 7th Non-Aligned Movement (NAM) Summit in New Delhi in 1983. Who was elected as NAM Chairperson?",
+    "options": ["Jawaharlal Nehru", "Rajiv Gandhi", "Indira Gandhi", "Morarji Desai"],
+    "correctAnswerIndex": 2,
+    "explanation": "Indira Gandhi was elected as NAM Chairperson at the 7th NAM Summit in New Delhi in 1983. She served as chairperson from 1983 to 1986. The summit was attended by 101 member states and 57 observer countries, making it one of the largest diplomatic gatherings of the era.",
+    "xpValue": 15
+  },
+  {
+    "id": "th-10",
+    "category": "timeline-history",
+    "question": "India's first lunar probe, Chandrayaan-1, which discovered water molecules on the Moon, was launched in which year?",
+    "options": ["2005", "2006", "2007", "2008"],
+    "correctAnswerIndex": 3,
+    "explanation": "Chandrayaan-1 was launched on 22 October 2008 by ISRO. The mission's Moon Impact Probe (MIP) confirmed the presence of water molecules on the lunar surface — a landmark discovery in planetary science. It established India as a space power capable of deep-space exploration.",
+    "xpValue": 10
+  }
+]

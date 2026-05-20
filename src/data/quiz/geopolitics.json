@@ -1,0 +1,107 @@
+[
+  {
+    "id": "gp-01",
+    "category": "geopolitics",
+    "question": "What is the approximate length of the Line of Actual Control (LAC) — the de facto border between India and China?",
+    "options": ["1,500 km", "2,500 km", "3,488 km", "4,500 km"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Line of Actual Control (LAC) is approximately 3,488 km long, stretching from Ladakh in the west to Arunachal Pradesh in the east. It is the de facto border between India and China, established after the 1962 Sino-Indian War. The LAC is disputed in several sectors, most notably in Ladakh and Arunachal Pradesh.",
+    "xpValue": 15
+  },
+  {
+    "id": "gp-02",
+    "category": "geopolitics",
+    "question": "China's 'String of Pearls' strategy refers to which geopolitical concept?",
+    "options": [
+      "China's network of economic zones across Asia",
+      "China's network of naval bases and ports surrounding India in the Indian Ocean",
+      "China's diplomatic alliances with South Asian nations",
+      "China's satellite navigation system covering the Indo-Pacific"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "China's 'String of Pearls' strategy refers to its network of naval bases, ports, and strategic facilities surrounding India in the Indian Ocean region — including in Myanmar (Kyaukpyu), Sri Lanka (Hambantota), Pakistan (Gwadar), and Bangladesh (Chittagong). This strategy directly challenges India's maritime security and regional dominance.",
+    "xpValue": 20
+  },
+  {
+    "id": "gp-03",
+    "category": "geopolitics",
+    "question": "India is one of the world's largest contributors to UN peacekeeping operations. Approximately how many Indian troops are currently deployed?",
+    "options": ["2,000", "4,000", "6,000", "10,000"],
+    "correctAnswerIndex": 2,
+    "explanation": "India has approximately 6,000 troops deployed in UN peacekeeping operations, making it one of the largest contributors. India has contributed over 250,000 personnel to UN peacekeeping missions since 1950. This reflects India's commitment to global security cooperation and its aspiration for a permanent UNSC seat.",
+    "xpValue": 15
+  },
+  {
+    "id": "gp-04",
+    "category": "geopolitics",
+    "question": "Which country is India's largest trading partner by volume, despite significant political tensions?",
+    "options": ["United States", "UAE", "China", "Saudi Arabia"],
+    "correctAnswerIndex": 2,
+    "explanation": "China is India's largest trading partner by volume, with bilateral trade exceeding $135 billion in 2023. However, the trade deficit heavily favours China (approximately $85 billion). Despite the 2020 Galwan clash and ongoing border tensions, trade between the two countries has continued to grow.",
+    "xpValue": 10
+  },
+  {
+    "id": "gp-05",
+    "category": "geopolitics",
+    "question": "The Hambantota port in Sri Lanka, leased to China for 99 years in 2017, is often cited as an example of which concept?",
+    "options": ["Blue Economy", "Debt-trap diplomacy", "Port State Control", "Maritime Silk Road"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Hambantota port deal is often cited as an example of 'debt-trap diplomacy' — where China provides loans for infrastructure projects, and when the borrowing country cannot repay, China gains strategic assets. Sri Lanka leased the port to a Chinese state-owned company for 99 years in 2017 after struggling to repay Chinese loans.",
+    "xpValue": 20
+  },
+  {
+    "id": "gp-06",
+    "category": "geopolitics",
+    "question": "India's bilateral trade with Russia surged to over $65 billion in 2023 primarily due to which factor?",
+    "options": [
+      "New India-Russia Free Trade Agreement",
+      "Increased defence equipment purchases",
+      "Discounted Russian crude oil imports following Western sanctions",
+      "Russian investment in Indian infrastructure"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "India's bilateral trade with Russia surged to over $65 billion in 2023, driven primarily by discounted Russian crude oil imports following Western sanctions imposed after Russia's invasion of Ukraine. India became one of Russia's top oil customers, importing Russian crude at significant discounts to market prices.",
+    "xpValue": 15
+  },
+  {
+    "id": "gp-07",
+    "category": "geopolitics",
+    "question": "Which country has the highest cooperation score with India among its Asian neighbours, reflecting the closest bilateral relationship?",
+    "options": ["Japan", "Singapore", "Bhutan", "UAE"],
+    "correctAnswerIndex": 2,
+    "explanation": "Bhutan has the highest cooperation score with India (90/100), reflecting the closest bilateral relationship. India is responsible for Bhutan's external security, accounts for over 80% of Bhutan's trade, and provides substantial development assistance. Bhutan does not have diplomatic relations with China or the US.",
+    "xpValue": 20
+  },
+  {
+    "id": "gp-08",
+    "category": "geopolitics",
+    "question": "The I2U2 grouping, a new regional alignment involving India, involves which other three countries?",
+    "options": [
+      "Israel, UAE, United States",
+      "Iran, UAE, United Kingdom",
+      "Israel, Uzbekistan, United States",
+      "Indonesia, UAE, United States"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The I2U2 grouping comprises India (I), Israel (I), UAE (U), and the United States (U). Launched in 2022, it focuses on joint investments in water, energy, transportation, space, health, and food security. It reflects new regional alignments connecting South Asia, the Middle East, and the West.",
+    "xpValue": 20
+  },
+  {
+    "id": "gp-09",
+    "category": "geopolitics",
+    "question": "India's cultural soft power dimension has the highest cooperation score (82/100) and the lowest competition score (28/100). What is the estimated number of yoga practitioners worldwide?",
+    "options": ["100 million", "200 million", "300 million", "400 million"],
+    "correctAnswerIndex": 2,
+    "explanation": "An estimated 300 million people practice yoga worldwide. The UN's adoption of June 21 as International Day of Yoga in 2014 reflects India's cultural diplomacy success. India's soft power — Bollywood, yoga, Ayurveda, and its civilisational heritage — is predominantly cooperative rather than competitive.",
+    "xpValue": 10
+  },
+  {
+    "id": "gp-10",
+    "category": "geopolitics",
+    "question": "India's IT services industry generates approximately $250 billion annually. Which dimension of India's geopolitical engagement does this primarily support?",
+    "options": ["Security & Defence", "Connectivity & Infrastructure", "Technology & Innovation", "Cultural & Soft Power"],
+    "correctAnswerIndex": 2,
+    "explanation": "India's $250 billion IT services industry primarily supports the Technology & Innovation dimension of its geopolitical engagement. This technological strength underpins India's cooperation with the US (iCET initiative), Japan, South Korea, and Australia, while also driving competition with China in the global digital economy.",
+    "xpValue": 15
+  }
+]

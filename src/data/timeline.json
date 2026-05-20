@@ -1,0 +1,191 @@
+[
+  {
+    "id": "te-1947",
+    "year": 1947,
+    "title": "India's Independence and Partition",
+    "category": "Diplomatic",
+    "briefDescription": "India gains independence from British rule on 15 August 1947, simultaneously partitioned into India and Pakistan, reshaping South Asian geopolitics permanently.",
+    "detailedDescription": "The end of British colonial rule created two new nations — India and Pakistan — along religious lines. The partition triggered one of the largest mass migrations in history (10–20 million people) and communal violence that claimed hundreds of thousands of lives. The unresolved Kashmir dispute, born from partition, continues to define India-Pakistan relations and South Asian security dynamics to this day. India's first Prime Minister Jawaharlal Nehru articulated the vision of Non-Alignment, positioning India as a leader of newly independent nations.",
+    "iconName": "Flag"
+  },
+  {
+    "id": "te-1950",
+    "year": 1950,
+    "title": "India-China Friendship and 'Hindi-Chini Bhai Bhai'",
+    "category": "Diplomatic",
+    "briefDescription": "India becomes one of the first non-communist countries to recognise the People's Republic of China, initiating a brief period of Sino-Indian friendship.",
+    "detailedDescription": "India's recognition of the PRC in 1950 was a significant diplomatic move, reflecting Nehru's vision of Asian solidarity. The slogan 'Hindi-Chini Bhai Bhai' (Indians and Chinese are brothers) captured the optimism of the era. India supported China's admission to the UN Security Council. However, the relationship was already complicated by China's annexation of Tibet in 1950, which India accepted under the 1954 Panchsheel Agreement, surrendering its inherited British rights in Tibet in exchange for Chinese recognition of Indian sovereignty.",
+    "iconName": "Handshake"
+  },
+  {
+    "id": "te-1954",
+    "year": 1954,
+    "title": "Panchsheel Agreement with China",
+    "category": "Diplomatic",
+    "briefDescription": "India and China sign the Panchsheel (Five Principles of Peaceful Coexistence) Agreement, establishing the framework for bilateral relations.",
+    "detailedDescription": "The Panchsheel Agreement formalised five principles: mutual respect for sovereignty and territorial integrity, mutual non-aggression, mutual non-interference in internal affairs, equality and mutual benefit, and peaceful coexistence. India surrendered its inherited British rights in Tibet in exchange for Chinese recognition of Indian sovereignty over Sikkim and Bhutan. The agreement was hailed as a model for Asian diplomacy but proved fragile — China's border claims and the 1962 war shattered the Panchsheel framework.",
+    "iconName": "FileText"
+  },
+  {
+    "id": "te-1955",
+    "year": 1955,
+    "title": "Bandung Conference and Non-Aligned Movement",
+    "category": "Diplomatic",
+    "briefDescription": "India co-leads the Bandung Conference of 29 Asian and African nations, laying the groundwork for the Non-Aligned Movement.",
+    "detailedDescription": "The Bandung Conference in Indonesia brought together 29 newly independent Asian and African nations to assert their independence from Cold War power blocs. Nehru, Nasser, Sukarno, Nkrumah, and Tito emerged as the leading voices of the Non-Aligned Movement (NAM). India's leadership of NAM gave it outsized diplomatic influence during the Cold War, allowing it to receive aid from both superpowers while maintaining strategic autonomy. The Bandung principles — anti-colonialism, anti-racism, and peaceful coexistence — shaped India's foreign policy for decades.",
+    "iconName": "Globe"
+  },
+  {
+    "id": "te-1962",
+    "year": 1962,
+    "title": "Sino-Indian War",
+    "category": "Diplomatic",
+    "briefDescription": "China launches a military offensive along the Himalayan border, inflicting a decisive defeat on India and permanently altering Sino-Indian relations.",
+    "detailedDescription": "The 1962 Sino-Indian War was a watershed moment in Indian foreign policy. China's offensive in Ladakh and NEFA (now Arunachal Pradesh) exposed India's military unpreparedness and shattered the 'Hindi-Chini Bhai Bhai' era. India suffered significant territorial losses and a humiliating military defeat. The war forced India to modernise its military, seek US and Soviet military assistance, and fundamentally reassess its China policy. The border dispute remains unresolved, with the Line of Actual Control (LAC) serving as the de facto boundary. The 2020 Galwan Valley clash echoed the 1962 trauma.",
+    "iconName": "AlertTriangle"
+  },
+  {
+    "id": "te-1971",
+    "year": 1971,
+    "title": "Bangladesh Liberation War and India-Pakistan War",
+    "category": "Diplomatic",
+    "briefDescription": "India intervenes militarily in East Pakistan, leading to the creation of Bangladesh and India's most decisive military victory.",
+    "detailedDescription": "The 1971 war was triggered by Pakistan's military crackdown on Bengali nationalists in East Pakistan, creating a refugee crisis of 10 million people in India. India signed the Indo-Soviet Treaty of Peace, Friendship and Cooperation in August 1971, providing a security umbrella against potential US-China intervention. India's military intervention in December 1971 led to the surrender of 93,000 Pakistani troops — the largest military surrender since World War II. Bangladesh emerged as an independent nation. The war demonstrated India's capacity for decisive military action and established it as the dominant power in South Asia.",
+    "iconName": "Shield"
+  },
+  {
+    "id": "te-1974",
+    "year": 1974,
+    "title": "Pokhran-I: India's First Nuclear Test",
+    "category": "Technology",
+    "briefDescription": "India conducts its first nuclear test ('Smiling Buddha') at Pokhran, Rajasthan, becoming the sixth nation to test a nuclear device.",
+    "detailedDescription": "Operation Smiling Buddha was India's first nuclear test, conducted on 18 May 1974. India described it as a 'peaceful nuclear explosion', but it fundamentally altered the Asian security landscape. The test was driven by the 1962 defeat against China and China's 1964 nuclear test. It triggered international sanctions and accelerated Pakistan's nuclear programme. The test established India as a de facto nuclear power and demonstrated its technological capabilities. India's nuclear doctrine of 'No First Use' and 'Credible Minimum Deterrence' was formalised after the 1998 tests.",
+    "iconName": "Zap"
+  },
+  {
+    "id": "te-1983",
+    "year": 1983,
+    "title": "India Hosts the Non-Aligned Movement Summit",
+    "category": "Diplomatic",
+    "briefDescription": "India hosts the 7th NAM Summit in New Delhi, with Indira Gandhi elected as NAM Chairperson, reinforcing India's leadership of the Global South.",
+    "detailedDescription": "The 1983 NAM Summit in New Delhi was attended by 101 member states and 57 observer countries, making it one of the largest diplomatic gatherings of the era. Indira Gandhi's chairmanship of NAM (1983–1986) coincided with her 'Indira Doctrine' — asserting India's right to intervene in South Asian affairs to prevent external interference. The summit addressed issues of disarmament, the Palestinian cause, and the New International Economic Order. India's NAM leadership gave it a platform to advocate for developing nations in Cold War-era international institutions.",
+    "iconName": "Users"
+  },
+  {
+    "id": "te-1985",
+    "year": 1985,
+    "title": "SAARC Founded in Dhaka",
+    "category": "Regional",
+    "briefDescription": "The South Asian Association for Regional Cooperation (SAARC) is established in Dhaka, Bangladesh, with seven founding members.",
+    "detailedDescription": "SAARC was founded on 8 December 1985 with Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, and Sri Lanka as founding members (Afghanistan joined in 2007). The organisation aimed to promote economic cooperation, social progress, and cultural development in South Asia. However, SAARC's effectiveness has been severely constrained by the India-Pakistan rivalry. The organisation has not held a summit since 2016, when India boycotted the Islamabad summit following the Uri terrorist attack. BIMSTEC has increasingly replaced SAARC as India's preferred regional platform.",
+    "iconName": "Building"
+  },
+  {
+    "id": "te-1991",
+    "year": 1991,
+    "title": "Economic Liberalisation and Look East Policy",
+    "category": "Economic",
+    "briefDescription": "India launches economic liberalisation under PM Narasimha Rao and Finance Minister Manmohan Singh, and initiates the Look East Policy to engage Southeast Asia.",
+    "detailedDescription": "The 1991 economic reforms — liberalisation, privatisation, and globalisation — transformed India's economic trajectory. Simultaneously, the Look East Policy (LEP) marked a strategic pivot towards Southeast Asia, driven by the end of the Cold War and the rise of ASEAN economies. India became an ASEAN Dialogue Partner in 1992. The LEP was upgraded to the Act East Policy in 2014 under PM Modi, with a greater emphasis on security and connectivity. The 1991 reforms and LEP together repositioned India as an emerging market economy integrated into Asian production networks.",
+    "iconName": "TrendingUp"
+  },
+  {
+    "id": "te-1998",
+    "year": 1998,
+    "title": "Pokhran-II: India Declares Nuclear Weapons State",
+    "category": "Technology",
+    "briefDescription": "India conducts five nuclear tests at Pokhran, officially declaring itself a nuclear weapons state and triggering international sanctions.",
+    "detailedDescription": "Operation Shakti (Pokhran-II) comprised five nuclear tests conducted on 11–13 May 1998. India declared itself a nuclear weapons state and announced its nuclear doctrine of 'No First Use' and 'Credible Minimum Deterrence'. Pakistan responded with its own nuclear tests (Chagai-I and II) within weeks, making South Asia a nuclear flashpoint. The US, Japan, and other nations imposed sanctions on India. However, the sanctions were gradually lifted, and the tests ultimately led to the 2005 India-US Civil Nuclear Agreement, which recognised India as a de facto nuclear power.",
+    "iconName": "Zap"
+  },
+  {
+    "id": "te-2005",
+    "year": 2005,
+    "title": "India-US Civil Nuclear Agreement",
+    "category": "Diplomatic",
+    "briefDescription": "India and the US announce the landmark civil nuclear cooperation agreement, ending India's nuclear isolation and transforming the bilateral relationship.",
+    "detailedDescription": "The India-US Civil Nuclear Agreement (123 Agreement), announced by PM Manmohan Singh and President George W. Bush in July 2005 and finalised in 2008, was a transformative moment in Indian foreign policy. The agreement recognised India as a responsible nuclear state outside the NPT framework, allowing civilian nuclear cooperation. It required India to separate its civilian and military nuclear facilities and accept IAEA safeguards on civilian facilities. The deal ended India's 34-year nuclear isolation, opened access to civilian nuclear technology, and fundamentally upgraded the India-US strategic partnership.",
+    "iconName": "Atom"
+  },
+  {
+    "id": "te-2008",
+    "year": 2008,
+    "title": "India's First Moon Mission: Chandrayaan-1",
+    "category": "Space",
+    "briefDescription": "ISRO launches Chandrayaan-1, India's first lunar probe, which discovers water molecules on the Moon's surface.",
+    "detailedDescription": "Chandrayaan-1, launched on 22 October 2008, was India's first mission to the Moon. The mission's Moon Impact Probe (MIP) confirmed the presence of water molecules on the lunar surface — a landmark discovery in planetary science. The mission established India as a space power capable of deep-space exploration. Chandrayaan-1 was followed by Chandrayaan-2 (2019) and the historic Chandrayaan-3 (2023), which made India the first country to land near the lunar south pole. India's space programme has become a source of national pride and a demonstration of its technological capabilities.",
+    "iconName": "Moon"
+  },
+  {
+    "id": "te-2014",
+    "year": 2014,
+    "title": "Act East Policy and Neighbourhood First",
+    "category": "Diplomatic",
+    "briefDescription": "PM Narendra Modi upgrades the Look East Policy to Act East Policy and launches the Neighbourhood First initiative, reorienting India's regional diplomacy.",
+    "detailedDescription": "PM Modi's Act East Policy (AEP) upgraded the Look East Policy with a greater emphasis on security, connectivity, and economic integration with Southeast and East Asia. The AEP extended India's engagement to the Pacific and deepened ties with Japan, Australia, and ASEAN. Simultaneously, the Neighbourhood First policy prioritised India's immediate neighbours — Bangladesh, Bhutan, Nepal, Sri Lanka, Maldives, Afghanistan, and Pakistan — with increased development assistance and connectivity investments. Modi's first foreign visit as PM was to Bhutan, signalling the importance of neighbourhood diplomacy.",
+    "iconName": "Compass"
+  },
+  {
+    "id": "te-2016",
+    "year": 2016,
+    "title": "India Joins the Missile Technology Control Regime",
+    "category": "Technology",
+    "briefDescription": "India becomes the 35th member of the Missile Technology Control Regime (MTCR), gaining access to advanced missile and drone technologies.",
+    "detailedDescription": "India's admission to the MTCR in June 2016 was a significant milestone in its integration into global non-proliferation regimes. MTCR membership allowed India to access advanced missile and unmanned aerial vehicle (UAV) technologies from member states. India subsequently joined the Wassenaar Arrangement (2017) and the Australia Group (2018), completing its entry into all four major export control regimes except the Nuclear Suppliers Group (NSG). These memberships enhanced India's credibility as a responsible nuclear and technology power and facilitated defence technology transfers from the US, France, and Israel.",
+    "iconName": "Target"
+  },
+  {
+    "id": "te-2017",
+    "year": 2017,
+    "title": "India Joins SCO as Full Member",
+    "category": "Regional",
+    "briefDescription": "India and Pakistan become full members of the Shanghai Cooperation Organisation (SCO) at the Astana Summit.",
+    "detailedDescription": "India's admission to the SCO as a full member at the June 2017 Astana Summit was a significant expansion of its Eurasian engagement. SCO membership gave India access to Central Asian markets, energy resources, and connectivity corridors. It also created a multilateral framework for managing the complex India-China-Pakistan triangle. India has used SCO membership to advance the International North-South Transport Corridor (INSTC) and engage with Central Asian nations. However, India has been cautious about SCO's security dimensions, given China's dominant role and the presence of Pakistan.",
+    "iconName": "Globe"
+  },
+  {
+    "id": "te-2020",
+    "year": 2020,
+    "title": "Galwan Valley Clash with China",
+    "category": "Diplomatic",
+    "briefDescription": "Indian and Chinese troops clash in the Galwan Valley, Ladakh, resulting in casualties on both sides and the worst Sino-Indian military confrontation since 1967.",
+    "detailedDescription": "The June 2020 Galwan Valley clash resulted in the deaths of 20 Indian soldiers and an unspecified number of Chinese troops (China acknowledged 4 deaths in 2021). The clash was the deadliest Sino-Indian military confrontation since the 1967 Nathu La incident. India responded with economic measures (banning 200+ Chinese apps including TikTok and WeChat), restrictions on Chinese FDI, and accelerated military modernisation along the LAC. The clash triggered a fundamental reassessment of India's China policy, ending the post-2014 'Modi-Xi' era of managed competition. Disengagement at most friction points was achieved by 2024.",
+    "iconName": "AlertTriangle"
+  },
+  {
+    "id": "te-2021",
+    "year": 2021,
+    "title": "Quad Leaders' Summit Elevated",
+    "category": "Diplomatic",
+    "briefDescription": "The Quad is elevated to leader-level summits, with India, US, Japan, and Australia committing to a free and open Indo-Pacific.",
+    "detailedDescription": "The first Quad Leaders' Summit (virtual) in March 2021 marked the elevation of the Quad from a working-level dialogue to a strategic forum at the highest level. The summit launched the Quad Vaccine Partnership (committing to produce 1 billion COVID-19 vaccines for the Indo-Pacific), the Quad Critical and Emerging Technology Working Group, and the Quad Climate Working Group. The in-person Quad Summit in September 2021 in Washington DC further institutionalised the grouping. For India, the Quad provides strategic depth in the Indo-Pacific while maintaining its policy of strategic autonomy.",
+    "iconName": "Users"
+  },
+  {
+    "id": "te-2023-g20",
+    "year": 2023,
+    "title": "India Hosts G20 New Delhi Summit",
+    "category": "Diplomatic",
+    "briefDescription": "India hosts the G20 Summit in New Delhi under the theme 'Vasudhaiva Kutumbakam', securing the African Union's permanent membership and advancing Global South priorities.",
+    "detailedDescription": "The G20 New Delhi Summit (9–10 September 2023) was India's most ambitious diplomatic event, attended by leaders of 43 countries and international organisations. Key outcomes included the African Union's permanent membership in the G20, the New Delhi Declaration (adopted by consensus despite Russia-Ukraine divisions), the Global Biofuels Alliance, and the India-Middle East-Europe Economic Corridor (IMEC). India used the G20 presidency to champion debt relief for developing nations, digital public infrastructure, and climate finance reform. The summit was widely seen as a diplomatic triumph for PM Modi and India's global standing.",
+    "iconName": "Star"
+  },
+  {
+    "id": "te-2023-moon",
+    "year": 2023,
+    "title": "Chandrayaan-3: India Lands Near Lunar South Pole",
+    "category": "Space",
+    "briefDescription": "India's Chandrayaan-3 mission successfully lands near the lunar south pole, making India the first country to achieve this feat.",
+    "detailedDescription": "On 23 August 2023, India's Chandrayaan-3 Vikram lander touched down near the lunar south pole — a region of scientific interest due to the presence of water ice. India became the fourth country to achieve a soft lunar landing and the first to land near the south pole. The Pragyan rover conducted experiments on the lunar surface for 14 days. The mission cost approximately $75 million — a fraction of comparable missions by other space agencies — demonstrating ISRO's cost-effective approach to space exploration. The success came just days after Russia's Luna-25 mission failed in the same region.",
+    "iconName": "Moon"
+  },
+  {
+    "id": "te-2024",
+    "year": 2024,
+    "title": "India-China Border Disengagement Agreement",
+    "category": "Diplomatic",
+    "briefDescription": "India and China reach a disengagement agreement on the remaining friction points along the Line of Actual Control in eastern Ladakh.",
+    "detailedDescription": "In October 2024, India and China announced a disengagement agreement covering the Depsang Plains and Demchok areas — the last remaining friction points from the 2020 Galwan crisis. The agreement allowed patrolling to resume at pre-2020 positions. PM Modi and President Xi Jinping met on the sidelines of the BRICS Summit in Kazan, Russia, marking the first formal bilateral summit since 2019. The disengagement was seen as a pragmatic step to normalise relations, though the underlying border dispute and strategic competition remain unresolved.",
+    "iconName": "Handshake"
+  }
+]

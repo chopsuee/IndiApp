@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mg-01",
+    "category": "map-geography",
+    "question": "Which body of water separates India from Sri Lanka?",
+    "options": ["Arabian Sea", "Bay of Bengal", "Palk Strait", "Laccadive Sea"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Palk Strait is the narrow stretch of water between the southeastern tip of India (Tamil Nadu) and the northern coast of Sri Lanka. It connects the Bay of Bengal to the Gulf of Mannar.",
+    "xpValue": 10
+  },
+  {
+    "id": "mg-02",
+    "category": "map-geography",
+    "question": "Which is the highest mountain range forming India's northern border?",
+    "options": ["Karakoram Range", "Hindu Kush", "Himalayas", "Vindhya Range"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Himalayas form India's northern border with China, Nepal, and Bhutan. They include the world's highest peaks, including Mount Everest (8,849 m), and act as a natural barrier between the Indian subcontinent and the Tibetan Plateau.",
+    "xpValue": 10
+  },
+  {
+    "id": "mg-03",
+    "category": "map-geography",
+    "question": "Which Asian country shares the longest land border with India?",
+    "options": ["Pakistan", "China", "Bangladesh", "Nepal"],
+    "correctAnswerIndex": 2,
+    "explanation": "Bangladesh shares the longest land border with India at approximately 4,156 km. This border runs through West Bengal, Assam, Meghalaya, Tripura, and Mizoram. China's border with India (LAC) is approximately 3,488 km.",
+    "xpValue": 15
+  },
+  {
+    "id": "mg-04",
+    "category": "map-geography",
+    "question": "The Doklam plateau, site of the 2017 India-China-Bhutan standoff, is located at the trijunction of which three countries?",
+    "options": ["India, China, Nepal", "India, China, Bhutan", "India, China, Myanmar", "India, Nepal, Bhutan"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Doklam plateau is located at the trijunction of India, China, and Bhutan. In 2017, Indian troops intervened to stop Chinese road construction in the disputed area, leading to a 73-day standoff that was resolved diplomatically.",
+    "xpValue": 20
+  },
+  {
+    "id": "mg-05",
+    "category": "map-geography",
+    "question": "Which strait connects the South China Sea to the Indian Ocean and is a critical shipping lane?",
+    "options": ["Strait of Hormuz", "Strait of Malacca", "Lombok Strait", "Sunda Strait"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Strait of Malacca, between the Malay Peninsula and Sumatra (Indonesia), is one of the world's most important shipping lanes. About 80,000 vessels pass through it annually, carrying roughly 25% of global trade, including much of India's oil imports from the Middle East.",
+    "xpValue": 15
+  },
+  {
+    "id": "mg-06",
+    "category": "map-geography",
+    "question": "Which Indian Ocean island nation is located approximately 1,200 km southwest of India?",
+    "options": ["Sri Lanka", "Maldives", "Mauritius", "Seychelles"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Maldives is an archipelago of about 1,200 coral islands located approximately 700–1,200 km southwest of India in the Indian Ocean. It is strategically important for India due to its location along major shipping routes.",
+    "xpValue": 10
+  },
+  {
+    "id": "mg-07",
+    "category": "map-geography",
+    "question": "The Wakhan Corridor is a narrow strip of Afghan territory that borders which country, preventing India from sharing a land border with Central Asia?",
+    "options": ["Pakistan", "Tajikistan", "China", "Uzbekistan"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Wakhan Corridor is a narrow strip of Afghan territory that borders China (Xinjiang) at its eastern end. It was created in 1893 as a buffer zone between British India and the Russian Empire. It prevents India from sharing a direct land border with Central Asia.",
+    "xpValue": 20
+  },
+  {
+    "id": "mg-08",
+    "category": "map-geography",
+    "question": "Which Indian territory is an archipelago in the Bay of Bengal, strategically located near the Strait of Malacca?",
+    "options": ["Lakshadweep", "Andaman and Nicobar Islands", "Daman and Diu", "Puducherry"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Andaman and Nicobar Islands are an Indian archipelago in the Bay of Bengal, located near the northern tip of Sumatra and the Strait of Malacca. They are strategically important for India's maritime security and its Act East Policy.",
+    "xpValue": 15
+  },
+  {
+    "id": "mg-09",
+    "category": "map-geography",
+    "question": "Which river, originating in Tibet, flows through India and Pakistan before emptying into the Arabian Sea?",
+    "options": ["Ganges", "Brahmaputra", "Indus", "Yamuna"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Indus River originates in Tibet (China), flows through Ladakh (India), and then through Pakistan before emptying into the Arabian Sea near Karachi. The Indus Waters Treaty (1960) between India and Pakistan governs the sharing of the Indus river system.",
+    "xpValue": 10
+  },
+  {
+    "id": "mg-10",
+    "category": "map-geography",
+    "question": "Which Central Asian country does India NOT share a direct land or sea border with, but connects to via the Chabahar port in Iran?",
+    "options": ["Kazakhstan", "Afghanistan", "Tajikistan", "Uzbekistan"],
+    "correctAnswerIndex": 1,
+    "explanation": "India does not share a direct border with Afghanistan due to Pakistan's territory in between. India developed the Chabahar port in Iran as an alternative route to Afghanistan and Central Asia, bypassing Pakistan. This port is India's gateway to the International North-South Transport Corridor (INSTC).",
+    "xpValue": 20
+  }
+]
