@@ -10,7 +10,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 export function NotableFigures() {
   const figures = getNotableFigures();
-  const reduced = useReducedMotion();
+  const reduced = useReducedMotion() ?? false;
 
   return (
     <section aria-labelledby="notable-figures-heading" className="space-y-6">
