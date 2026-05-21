@@ -4,7 +4,8 @@ import timelineEvents from '@/data/timeline.json';
 import comparisonItems from '@/data/comparison.json';
 import geopoliticsDimensions from '@/data/geopolitics.json';
 import badges from '@/data/badges.json';
-import type { Country, Organization, TimelineEvent, ComparisonItem, GeopoliticsDimension, Badge, QuizQuestion, QuizCategory } from '@/types';
+import notableFigures from '@/data/notable-figures.json';
+import type { Country, Organization, TimelineEvent, ComparisonItem, GeopoliticsDimension, Badge, QuizQuestion, QuizCategory, NotableFigure } from '@/types';
 
 export const getCountries = (): Country[] => countries as Country[];
 export const getOrganizations = (): Organization[] => organizations as Organization[];
@@ -13,6 +14,7 @@ export const getTimelineEvents = (): TimelineEvent[] =>
 export const getComparisonItems = (): ComparisonItem[] => comparisonItems as unknown as ComparisonItem[];
 export const getGeopoliticsDimensions = (): GeopoliticsDimension[] => geopoliticsDimensions as GeopoliticsDimension[];
 export const getBadges = (): Badge[] => badges as Badge[];
+export const getNotableFigures = (): NotableFigure[] => notableFigures as NotableFigure[];
 export const getQuizQuestions = async (category: QuizCategory): Promise<QuizQuestion[]> => {
   const mod = await import(`@/data/quiz/${category}.json`);
   return mod.default as QuizQuestion[];

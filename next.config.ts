@@ -35,7 +35,20 @@ const withPWA = withPWAInit({
   },
 });
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  turbopack: {
+    root: process.cwd(),
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
+      },
+    ],
+    unoptimized: process.env.NODE_ENV === 'development',
+  },
+};
 
 // Bundle analyzer — only active when ANALYZE=true
 async function buildConfig() {

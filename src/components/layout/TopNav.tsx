@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useMemo } from 'react';
 import { Home, Map, Building2, Clock, BarChart2, Globe, HelpCircle, Menu } from 'lucide-react';
 import {
   Sheet,
@@ -34,6 +35,20 @@ export function TopNav() {
   const isActive = (href: string) =>
     href === '/' ? pathname === '/' : pathname.startsWith(href);
 
+  // Pre-calculate spoke positions to avoid hydration mismatch
+  const spokes = useMemo(() => {
+    return Array.from({ length: 24 }).map((_, i) => {
+      const angle = (i * 360) / 24;
+      const rad = (angle * Math.PI) / 180;
+      // Round to 2 decimal places to ensure server/client match
+      const x1 = Math.round((12 + 4 * Math.cos(rad)) * 100) / 100;
+      const y1 = Math.round((12 + 4 * Math.sin(rad)) * 100) / 100;
+      const x2 = Math.round((12 + 10 * Math.cos(rad)) * 100) / 100;
+      const y2 = Math.round((12 + 10 * Math.sin(rad)) * 100) / 100;
+      return { x1, y1, x2, y2 };
+    });
+  }, []);
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 glass shadow-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
@@ -63,24 +78,16 @@ export function TopNav() {
                   <circle cx="12" cy="12" r="4" />
                   
                   {/* 24 spokes */}
-                  {Array.from({ length: 24 }).map((_, i) => {
-                    const angle = (i * 360) / 24;
-                    const rad = (angle * Math.PI) / 180;
-                    const x1 = 12 + 4 * Math.cos(rad);
-                    const y1 = 12 + 4 * Math.sin(rad);
-                    const x2 = 12 + 10 * Math.cos(rad);
-                    const y2 = 12 + 10 * Math.sin(rad);
-                    return (
-                      <line
-                        key={i}
-                        x1={x1}
-                        y1={y1}
-                        x2={x2}
-                        y2={y2}
-                        strokeWidth="0.5"
-                      />
-                    );
-                  })}
+                  {spokes.map((spoke, i) => (
+                    <line
+                      key={i}
+                      x1={spoke.x1}
+                      y1={spoke.y1}
+                      x2={spoke.x2}
+                      y2={spoke.y2}
+                      strokeWidth="0.5"
+                    />
+                  ))}
                   
                   {/* Outer circle */}
                   <circle cx="12" cy="12" r="10" />

@@ -1,118 +1,140 @@
-import { Award } from 'lucide-react';
+'use client';
 
-interface Figure {
-  name: string;
-  years: string;
-  role: string;
-  impact: string;
-  emoji: string;
-  tag: string;
-}
-
-const FIGURES: Figure[] = [
-  {
-    name: 'Mahatma Gandhi',
-    years: '1869–1948',
-    role: 'Father of the Nation',
-    tag: 'Civil Rights',
-    emoji: '🕊️',
-    impact:
-      'Pioneered nonviolent resistance (Satyagraha) to win Indian independence. His methods directly inspired Martin Luther King Jr. and Nelson Mandela — still the global blueprint for civil disobedience.',
-  },
-  {
-    name: 'Rabindranath Tagore',
-    years: '1861–1941',
-    role: 'Poet, Philosopher & Educator',
-    tag: 'Nobel 1913',
-    emoji: '✍️',
-    impact:
-      'First Asian Nobel Laureate in Literature (1913). His poetry and philosophy shaped global thought on nationalism vs humanism. Founded Visva-Bharati University, blending Eastern and Western learning.',
-  },
-  {
-    name: 'APJ Abdul Kalam',
-    years: '1931–2015',
-    role: 'Scientist & 11th President of India',
-    tag: 'Science & Leadership',
-    emoji: '🚀',
-    impact:
-      '"Missile Man of India" — led India\'s ballistic missile and space programmes before becoming President (2002–2007). Made science aspirational for a generation of students across the Global South.',
-  },
-  {
-    name: 'Amartya Sen',
-    years: '1933–present',
-    role: 'Economist & Philosopher',
-    tag: 'Nobel 1998',
-    emoji: '📊',
-    impact:
-      'Nobel Prize in Economics (1998) for his work on poverty, famines, and human capability. His Capability Approach fundamentally changed how the UN and World Bank measure human development.',
-  },
-  {
-    name: 'Ratan Tata',
-    years: '1937–2024',
-    role: 'Industrialist & Philanthropist',
-    tag: 'Ethical Capitalism',
-    emoji: '🏭',
-    impact:
-      'Built Tata Group into a global brand spanning Jaguar, Land Rover, and Tetley. Channelled 66% of Tata Sons profits into philanthropy — a model of ethical capitalism rarely seen at this scale.',
-  },
-];
-
-const TAG_COLORS: Record<string, string> = {
-  'Civil Rights': 'bg-orange-100 text-orange-800 dark:bg-orange-900/40 dark:text-orange-300',
-  'Nobel 1913': 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/40 dark:text-yellow-300',
-  'Science & Leadership': 'bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300',
-  'Nobel 1998': 'bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300',
-  'Ethical Capitalism': 'bg-purple-100 text-purple-800 dark:bg-purple-900/40 dark:text-purple-300',
-};
+import { getNotableFigures } from '@/lib/data';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { motion } from 'motion/react';
+import { useReducedMotion } from '@/hooks';
+import { useState } from 'react';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 
 export function NotableFigures() {
+  const figures = getNotableFigures();
+  const reduced = useReducedMotion();
+
   return (
-    <section aria-labelledby="notable-figures-heading">
-      <div className="flex items-center gap-2 mb-6">
-        <Award className="size-6 text-primary" aria-hidden="true" />
-        <h2 id="notable-figures-heading" className="text-2xl font-bold">
+    <section aria-labelledby="notable-figures-heading" className="space-y-6">
+      <div className="text-center space-y-2">
+        <h2 id="notable-figures-heading" className="text-3xl font-bold text-gradient-primary">
           Notable Figures
         </h2>
+        <p className="text-muted-foreground max-w-2xl mx-auto">
+          Influential Indians who shaped global thought and action
+        </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {FIGURES.map((figure) => (
-          <article
-            key={figure.name}
-            className="flex flex-col gap-3 rounded-2xl border bg-card p-5 transition-shadow hover:shadow-md"
-          >
-            {/* Header */}
-            <div className="flex items-start gap-3">
-              <span
-                className="flex size-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-2xl"
-                aria-hidden="true"
-              >
-                {figure.emoji}
-              </span>
-              <div className="min-w-0">
-                <h3 className="font-semibold leading-tight">{figure.name}</h3>
-                <p className="text-xs text-muted-foreground">{figure.years}</p>
-                <p className="text-xs text-muted-foreground mt-0.5">{figure.role}</p>
-              </div>
-            </div>
-
-            {/* Tag */}
-            <span
-              className={`self-start inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${
-                TAG_COLORS[figure.tag] ?? 'bg-muted text-muted-foreground'
-              }`}
-            >
-              {figure.tag}
-            </span>
-
-            {/* Impact */}
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              {figure.impact}
-            </p>
-          </article>
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {figures.map((figure, index) => (
+          <FigureCard key={figure.id} figure={figure} index={index} reduced={reduced} />
         ))}
       </div>
     </section>
+  );
+}
+
+function FigureCard({ figure, index, reduced }: { figure: any; index: number; reduced: boolean }) {
+  const [imageError, setImageError] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+
+  return (
+    <motion.div
+      initial={reduced ? {} : { opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, delay: index * 0.1 }}
+    >
+      <Card className="h-full hover-lift border-2 hover:border-primary/30 overflow-hidden relative group">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-smooth" />
+        
+        <CardHeader className="relative pb-3">
+          {/* Avatar with image or initials */}
+          <div className="flex items-start gap-4 mb-3">
+            <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg group-hover:scale-110 transition-smooth flex-shrink-0 bg-gradient-to-br from-primary to-accent">
+              {figure.imageUrl && !imageError ? (
+                <>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={figure.imageUrl}
+                    alt={figure.name}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      console.error(`Failed to load image for ${figure.name}:`, figure.imageUrl);
+                      setImageError(true);
+                    }}
+                    onLoad={() => {
+                      setImageLoaded(true);
+                    }}
+                    loading="lazy"
+                  />
+                </>
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-white font-bold text-2xl">
+                  {figure.imageInitials}
+                </div>
+              )}
+            </div>
+            <div className="flex-1 min-w-0">
+              <CardTitle className="text-lg leading-tight mb-1">
+                {figure.name}
+              </CardTitle>
+              <p className="text-sm text-muted-foreground font-medium">
+                {figure.years}
+              </p>
+            </div>
+          </div>
+          
+          <div className="flex items-center gap-2">
+            <Badge variant="outline" className="text-xs">
+              {figure.category}
+            </Badge>
+          </div>
+        </CardHeader>
+
+        <CardContent className="relative space-y-3">
+          <p className="text-sm font-semibold text-primary">
+            {figure.title}
+          </p>
+          <p className="text-sm text-muted-foreground leading-relaxed">
+            {figure.impact}
+          </p>
+
+          {/* Achievements Section */}
+          {figure.achievements && figure.achievements.length > 0 && (
+            <div className="pt-2 border-t border-border/50">
+              <button
+                onClick={() => setExpanded(!expanded)}
+                className="flex items-center justify-between w-full text-sm font-semibold text-primary hover:text-primary/80 transition-colors"
+                aria-expanded={expanded}
+              >
+                <span>Key Achievements</span>
+                {expanded ? (
+                  <ChevronUp className="w-4 h-4" />
+                ) : (
+                  <ChevronDown className="w-4 h-4" />
+                )}
+              </button>
+              
+              {expanded && (
+                <motion.ul
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: 'auto' }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="mt-2 space-y-2 text-xs text-muted-foreground"
+                >
+                  {figure.achievements.map((achievement: string, idx: number) => (
+                    <li key={idx} className="flex items-start gap-2">
+                      <span className="text-primary mt-0.5">•</span>
+                      <span className="flex-1">{achievement}</span>
+                    </li>
+                  ))}
+                </motion.ul>
+              )}
+            </div>
+          )}
+        </CardContent>
+      </Card>
+    </motion.div>
   );
 }
 

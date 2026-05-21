@@ -1,0 +1,92 @@
+[
+  {
+    "id": "gandhi",
+    "name": "Mahatma Gandhi",
+    "title": "Father of the Nation",
+    "years": "1869-1948",
+    "impact": "Led India to independence through nonviolent civil disobedience. His philosophy of Satyagraha (truth-force) inspired global movements including Martin Luther King Jr.'s civil rights campaign and Nelson Mandela's anti-apartheid struggle. Pioneered peaceful resistance as a powerful tool for social change.",
+    "category": "Political Leader",
+    "imageInitials": "MG",
+    "imageUrl": "/notable-figures/gandhi.jpg",
+    "achievements": [
+      "Led Salt March (1930) - 240-mile protest against British salt tax",
+      "Championed Hindu-Muslim unity and fought against untouchability",
+      "Influenced independence movements across Asia and Africa"
+    ]
+  },
+  {
+    "id": "tagore",
+    "name": "Rabindranath Tagore",
+    "title": "First Asian Nobel Laureate",
+    "years": "1861-1941",
+    "impact": "First Asian to win Nobel Prize in Literature (1913) for his poetry collection Gitanjali. Reshaped Bengali literature and music, composed national anthems for both India and Bangladesh. Founded Visva-Bharati University promoting synthesis of Eastern and Western learning. His works explored humanism, nationalism, and spirituality.",
+    "category": "Literature & Philosophy",
+    "imageInitials": "RT",
+    "imageUrl": "/notable-figures/tagore.jpg",
+    "achievements": [
+      "Wrote over 2,000 songs including India's national anthem 'Jana Gana Mana'",
+      "Renounced knighthood in protest of Jallianwala Bagh massacre (1919)",
+      "Pioneered modern Bengali literature and Contextual Modernism in Indian art"
+    ]
+  },
+  {
+    "id": "kalam",
+    "name": "APJ Abdul Kalam",
+    "title": "Missile Man of India",
+    "years": "1931-2015",
+    "impact": "Transformed India into a nuclear and space power as chief architect of India's missile and nuclear programs. Served as 11th President of India (2002-2007), known as the 'People's President'. Inspired millions of youth across developing nations to pursue science and innovation. His vision of India 2020 shaped national development goals.",
+    "category": "Science & Leadership",
+    "imageInitials": "AK",
+    "imageUrl": "/notable-figures/kalam.jpg",
+    "achievements": [
+      "Led development of Agni and Prithvi missiles, India's first satellite launch vehicle",
+      "Played pivotal role in 1998 Pokhran-II nuclear tests",
+      "Authored 'Wings of Fire' - inspirational autobiography read by millions"
+    ]
+  },
+  {
+    "id": "teresa",
+    "name": "Mother Teresa",
+    "title": "Saint of the Gutters",
+    "years": "1910-1997",
+    "impact": "Founded Missionaries of Charity in Kolkata (1950), serving the poorest of the poor across India and 133 countries. Won Nobel Peace Prize (1979) for humanitarian work. Established homes for orphans, hospices for the dying, and centers for the blind, aged, and disabled. Canonized as Saint Teresa of Calcutta (2016). Her compassion redefined global humanitarian service.",
+    "category": "Humanitarian",
+    "imageInitials": "MT",
+    "imageUrl": "/notable-figures/teresa.jpg",
+    "achievements": [
+      "Missionaries of Charity operates 760+ homes in 139 countries",
+      "Received Bharat Ratna (1980) - India's highest civilian honor",
+      "Cared for over 8,000 people in Kolkata's Home for the Dying"
+    ]
+  },
+  {
+    "id": "sen",
+    "name": "Amartya Sen",
+    "title": "Nobel Laureate in Economics",
+    "years": "1933-Present",
+    "impact": "Won Nobel Prize in Economics (1998) for groundbreaking work on welfare economics, poverty, and famine. His capability approach revolutionized how development is measured - shifting focus from GDP to human freedoms and quality of life. Influenced UN's Human Development Index and World Bank policies. Demonstrated famines result from distribution failures, not food scarcity.",
+    "category": "Economics",
+    "imageInitials": "AS",
+    "imageUrl": "/notable-figures/sen.jpg",
+    "achievements": [
+      "Master of Trinity College, Cambridge - first Asian to head an Oxbridge college",
+      "Bharat Ratna recipient (1999) for contributions to welfare economics",
+      "Published 'Development as Freedom' - reshaping global development thinking"
+    ]
+  },
+  {
+    "id": "tata",
+    "name": "Ratan Tata",
+    "title": "Business Leader & Philanthropist",
+    "years": "1937-Present",
+    "impact": "Transformed Tata Group into a global powerhouse with acquisitions of Jaguar Land Rover, Tetley Tea, and Corus Steel. Pioneered ethical capitalism - 66% of Tata Sons' equity held by philanthropic trusts funding education, healthcare, and rural development. Launched Tata Nano (world's cheapest car) and championed affordable innovation for masses.",
+    "category": "Business & Philanthropy",
+    "imageInitials": "RT",
+    "imageUrl": "/notable-figures/tata.jpg",
+    "achievements": [
+      "Grew Tata Group revenues from $4B to $100B+ during his tenure (1991-2012)",
+      "Tata Trusts donated over $102M annually to social causes",
+      "Received Padma Vibhushan (2008) - India's second-highest civilian award"
+    ]
+  }
+]

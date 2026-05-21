@@ -6,3 +6,4 @@ export * from './geopolitics';
 export * from './quiz';
 export * from './badge';
 export * from './user';
+export * from './notable-figure';
