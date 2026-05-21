@@ -13,9 +13,13 @@ export default function TimelinePage() {
   const events = getTimelineEvents();
   return (
     <PageWrapper>
-      <div className="max-w-3xl mx-auto px-4 py-6 space-y-4">
-        <h1 className="text-3xl font-bold">Historical Timeline</h1>
-        <p className="text-muted-foreground">Key milestones in India&apos;s regional relationships from 1947 to present.</p>
+      <div className="max-w-3xl mx-auto px-4 py-8 space-y-8">
+        <div className="text-center space-y-3">
+          <h1 className="text-4xl md:text-5xl font-bold text-gradient-primary">Historical Timeline</h1>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            Key milestones in India's regional relationships from 1947 to present
+          </p>
+        </div>
         <ErrorBoundary>
           <TimelineView events={events} />
         </ErrorBoundary>

@@ -8,9 +8,10 @@ type Theme = 'dark' | 'light';
 /**
  * Manages the application colour theme.
  *
+ * - Default theme is LIGHT MODE (not dark).
  * - Reads the stored theme from `localStorage` (key: `'theme'`).
- * - When no stored value exists, falls back to the OS preference via
- *   `window.matchMedia('(prefers-color-scheme: dark)')`.
+ * - When no stored value exists, defaults to 'light' (dark mode is optional).
+ * - Users can manually toggle to dark mode if preferred.
  * - Applies `'dark'` or `'light'` as a class on `document.documentElement`.
  * - SSR-safe: always returns `'light'` on the server / first render to
  *   prevent hydration mismatches. The real theme is applied after mount.
@@ -25,10 +26,9 @@ export function useTheme(): { theme: Theme; toggleTheme: () => void } {
   const [resolvedTheme, setResolvedTheme] = useState<Theme>('light');
 
   useEffect(() => {
-    // After mount, resolve the real theme from storage or OS preference.
-    const real: Theme =
-      storedTheme ??
-      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    // After mount, resolve the real theme from storage.
+    // Default to 'light' if no preference is stored (dark mode is optional).
+    const real: Theme = storedTheme ?? 'light';
     setResolvedTheme(real);
   }, [storedTheme]);
 

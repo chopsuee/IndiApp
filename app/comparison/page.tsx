@@ -16,9 +16,15 @@ export default function ComparisonPage() {
   const items = getComparisonItems();
   return (
     <PageWrapper>
-      <div className="max-w-4xl mx-auto px-4 py-6 space-y-8">
-        <h1 className="text-3xl font-bold">Regionalism vs Globalization</h1>
-        <p className="text-muted-foreground">How India balances regional cooperation with global integration.</p>
+      <div className="max-w-4xl mx-auto px-4 py-8 space-y-10">
+        <div className="text-center space-y-3">
+          <h1 className="text-4xl md:text-5xl font-bold text-gradient-primary">
+            Regionalism vs Globalization
+          </h1>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            How India balances regional cooperation with global integration
+          </p>
+        </div>
         <ErrorBoundary><ComparisonCards /></ErrorBoundary>
         <ErrorBoundary><ComparisonTable items={items} /></ErrorBoundary>
         <ErrorBoundary><ComparisonCarousel items={items} /></ErrorBoundary>

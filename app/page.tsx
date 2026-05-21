@@ -14,15 +14,20 @@ export default function HomePage() {
 
   return (
     <PageWrapper>
-      <div className="max-w-4xl mx-auto px-4 space-y-12 py-4">
+      <div className="max-w-4xl mx-auto px-4 space-y-16 py-6">
         <ErrorBoundary>
           <HeroSection />
         </ErrorBoundary>
         <ErrorBoundary>
-          <section aria-label="Key statistics" className="grid grid-cols-3 gap-4">
-            <StatCard label="Asian Countries" value={countries.length} />
-            <StatCard label="Organizations" value={organizations.length} />
-            <StatCard label="Timeline Events" value={events.length} />
+          <section aria-label="Key statistics" className="space-y-6">
+            <h2 className="text-3xl font-bold text-gradient-primary text-center">
+              Platform Overview
+            </h2>
+            <div className="grid grid-cols-3 gap-4">
+              <StatCard label="Asian Countries" value={countries.length} />
+              <StatCard label="Organizations" value={organizations.length} />
+              <StatCard label="Timeline Events" value={events.length} />
+            </div>
           </section>
         </ErrorBoundary>
         <ErrorBoundary>

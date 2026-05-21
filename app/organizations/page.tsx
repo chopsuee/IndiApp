@@ -13,11 +13,13 @@ export default function OrganizationsPage() {
   const organizations = getOrganizations();
   return (
     <PageWrapper>
-      <div className="max-w-4xl mx-auto px-4 py-6 space-y-4">
-        <h1 className="text-3xl font-bold">Regional Organizations</h1>
-        <p className="text-muted-foreground">
-          India&apos;s participation in key regional and multilateral organizations across Asia.
-        </p>
+      <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">
+        <div className="text-center space-y-3">
+          <h1 className="text-4xl md:text-5xl font-bold text-gradient-primary">Regional Organizations</h1>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            India's participation in key regional and multilateral organizations across Asia
+          </p>
+        </div>
         <ErrorBoundary>
           <OrgGrid organizations={organizations} />
         </ErrorBoundary>

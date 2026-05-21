@@ -15,9 +15,13 @@ export default function GeopoliticsPage() {
   const dimensions = getGeopoliticsDimensions();
   return (
     <PageWrapper>
-      <div className="max-w-4xl mx-auto px-4 py-6 space-y-8">
-        <h1 className="text-3xl font-bold">Geopolitics</h1>
-        <p className="text-muted-foreground">India&apos;s cooperation and competition across key geopolitical dimensions.</p>
+      <div className="max-w-4xl mx-auto px-4 py-8 space-y-10">
+        <div className="text-center space-y-3">
+          <h1 className="text-4xl md:text-5xl font-bold text-gradient-primary">Geopolitics</h1>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            India's cooperation and competition across key geopolitical dimensions
+          </p>
+        </div>
         <ErrorBoundary><GeopoliticsStats dimensions={dimensions} /></ErrorBoundary>
         <ErrorBoundary><GeopoliticsChartDynamic dimensions={dimensions} /></ErrorBoundary>
         <ErrorBoundary><RelationshipCards dimensions={dimensions} /></ErrorBoundary>

@@ -19,40 +19,48 @@ const GLOBALIZATION_POINTS = [
 
 export function ComparisonCards() {
   return (
-    <section aria-labelledby="comparison-cards-heading">
-      <h2 id="comparison-cards-heading" className="sr-only">Regionalism vs Globalization Overview</h2>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-        <Card className="border-blue-200 dark:border-blue-800">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-blue-700 dark:text-blue-300">
-              <Network className="size-5" aria-hidden="true" />
+    <section aria-labelledby="comparison-cards-heading" className="space-y-6">
+      <h2 id="comparison-cards-heading" className="text-3xl font-bold text-gradient-primary">
+        Two Approaches to Global Engagement
+      </h2>
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <Card className="border-2 border-secondary/30 hover-lift hover:border-secondary/50 overflow-hidden relative group">
+          <div className="absolute inset-0 bg-gradient-to-br from-secondary/10 to-transparent opacity-50" />
+          <CardHeader className="relative">
+            <CardTitle className="flex items-center gap-3 text-secondary text-xl">
+              <div className="p-2 rounded-xl bg-secondary/20">
+                <Network className="size-6" aria-hidden="true" />
+              </div>
               Regionalism
             </CardTitle>
           </CardHeader>
-          <CardContent>
-            <ul className="space-y-2">
+          <CardContent className="relative">
+            <ul className="space-y-3">
               {REGIONALISM_POINTS.map((point, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm">
-                  <span className="mt-1 size-1.5 rounded-full bg-blue-500 shrink-0" aria-hidden="true" />
-                  {point}
+                <li key={i} className="flex items-start gap-3 text-sm group/item">
+                  <span className="mt-1.5 size-2 rounded-full bg-secondary shrink-0 group-hover/item:scale-125 transition-smooth" aria-hidden="true" />
+                  <span className="leading-relaxed">{point}</span>
                 </li>
               ))}
             </ul>
           </CardContent>
         </Card>
-        <Card className="border-green-200 dark:border-green-800">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-green-700 dark:text-green-300">
-              <Globe className="size-5" aria-hidden="true" />
+        <Card className="border-2 border-accent/30 hover-lift hover:border-accent/50 overflow-hidden relative group">
+          <div className="absolute inset-0 bg-gradient-to-br from-accent/10 to-transparent opacity-50" />
+          <CardHeader className="relative">
+            <CardTitle className="flex items-center gap-3 text-accent-foreground text-xl">
+              <div className="p-2 rounded-xl bg-accent/20">
+                <Globe className="size-6" aria-hidden="true" />
+              </div>
               Globalization
             </CardTitle>
           </CardHeader>
-          <CardContent>
-            <ul className="space-y-2">
+          <CardContent className="relative">
+            <ul className="space-y-3">
               {GLOBALIZATION_POINTS.map((point, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm">
-                  <span className="mt-1 size-1.5 rounded-full bg-green-500 shrink-0" aria-hidden="true" />
-                  {point}
+                <li key={i} className="flex items-start gap-3 text-sm group/item">
+                  <span className="mt-1.5 size-2 rounded-full bg-accent shrink-0 group-hover/item:scale-125 transition-smooth" aria-hidden="true" />
+                  <span className="leading-relaxed">{point}</span>
                 </li>
               ))}
             </ul>
