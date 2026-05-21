@@ -171,6 +171,11 @@
   h1, h2, h3 {
     font-family: var(--font-heading);
   }
+  /* Ensure dialogs/sheets render above Leaflet map layers (z-index 400–600) */
+  [data-slot="sheet-overlay"],
+  [data-slot="sheet-content"] {
+    z-index: 1000 !important;
+  }
 }
 
 @layer utilities {

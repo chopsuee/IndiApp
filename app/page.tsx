@@ -3,6 +3,7 @@ import { ErrorBoundary } from '@/components/layout/ErrorBoundary';
 import { HeroSection } from '@/components/dashboard/HeroSection';
 import { StatCard } from '@/components/dashboard/StatCard';
 import { FeaturedOrgs } from '@/components/dashboard/FeaturedOrgs';
+import { NotableFigures } from '@/components/dashboard/NotableFigures';
 import { QuickNav } from '@/components/dashboard/QuickNav';
 import { InfoGraphic } from '@/components/dashboard/InfoGraphic';
 import { getCountries, getOrganizations, getTimelineEvents } from '@/lib/data';
@@ -32,6 +33,9 @@ export default function HomePage() {
         </ErrorBoundary>
         <ErrorBoundary>
           <FeaturedOrgs />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <NotableFigures />
         </ErrorBoundary>
         <ErrorBoundary>
           <QuickNav />

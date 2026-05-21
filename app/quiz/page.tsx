@@ -12,8 +12,6 @@ export const metadata: Metadata = {
 
 export default function QuizPage() {
   const allBadges = getBadges();
-  // Server render with no unlocked badges — client hydrates from localStorage
-  const unlockedBadgeIds = new Set<string>();
   return (
     <PageWrapper>
       <div className="max-w-4xl mx-auto px-4 py-6 space-y-8">
@@ -25,7 +23,7 @@ export default function QuizPage() {
           <CategorySelector />
         </ErrorBoundary>
         <ErrorBoundary>
-          <BadgeGallery allBadges={allBadges} unlockedBadgeIds={unlockedBadgeIds} />
+          <BadgeGallery allBadges={allBadges} />
         </ErrorBoundary>
       </div>
     </PageWrapper>

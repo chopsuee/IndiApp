@@ -20,7 +20,8 @@ const CATEGORY_COLORS: Record<string, string> = {
 export function CountryDetailPanel({ country, open, onClose }: CountryDetailPanelProps) {
   return (
     <Sheet open={open} onOpenChange={(o) => !o && onClose()}>
-      <SheetContent side="right" className="w-full sm:max-w-md overflow-y-auto">
+      {/* z-[1000] ensures the sheet renders above Leaflet's map panes (z-index 400–600) */}
+      <SheetContent side="right" className="w-full sm:max-w-md overflow-y-auto z-[1000]">
         <SheetHeader>
           <SheetTitle className="flex items-center gap-2">
             {country && <><span className="text-2xl" aria-hidden="true">{country.flag}</span><span>{country.name}</span></>}

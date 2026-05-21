@@ -41,20 +41,30 @@ export default function QuizResultsPage() {
     try {
       const parsed: QuizResult = JSON.parse(stored);
       const allBadges = getBadges();
-      const newBadges = unlockBadges(parsed, progress.unlockedBadges, allBadges);
+
+      // Read current progress directly from localStorage to get the latest
+      // unlocked badges (the hook's state may still be DEFAULT_PROGRESS on
+      // first render due to the SSR-safe deferred sync).
+      let currentProgress: UserProgress = DEFAULT_PROGRESS;
+      try {
+        const raw = localStorage.getItem('userProgress');
+        if (raw) currentProgress = JSON.parse(raw);
+      } catch { /* use default */ }
+
+      const newBadges = unlockBadges(parsed, currentProgress.unlockedBadges, allBadges);
       const resultWithBadges: QuizResult = { ...parsed, badgesUnlocked: newBadges };
 
       setResult(resultWithBadges);
 
-      setProgress((prev) => ({
-        ...prev,
-        totalXP: prev.totalXP + parsed.xpEarned,
+      setProgress(() => ({
+        ...currentProgress,
+        totalXP: currentProgress.totalXP + parsed.xpEarned,
         categoryXP: {
-          ...prev.categoryXP,
-          [parsed.category]: (prev.categoryXP[parsed.category] ?? 0) + parsed.xpEarned,
+          ...currentProgress.categoryXP,
+          [parsed.category]: (currentProgress.categoryXP[parsed.category] ?? 0) + parsed.xpEarned,
         },
-        unlockedBadges: [...prev.unlockedBadges, ...newBadges],
-        quizHistory: [...prev.quizHistory, resultWithBadges],
+        unlockedBadges: [...currentProgress.unlockedBadges, ...newBadges],
+        quizHistory: [...currentProgress.quizHistory, resultWithBadges],
       }));
 
       sessionStorage.removeItem('quizResult');

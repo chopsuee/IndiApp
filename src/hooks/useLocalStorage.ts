@@ -1,14 +1,14 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 /**
  * Generic typed hook for reading and writing a value to `localStorage`.
  *
- * SSR-safe: checks `typeof window !== 'undefined'` before accessing
- * `localStorage`. All reads and writes are wrapped in try/catch so that
- * environments where `localStorage` is unavailable (e.g. private browsing
- * with storage blocked) fall back gracefully to in-memory state.
+ * SSR-safe: always initialises with `initialValue` on the first render
+ * (matching the server), then syncs from `localStorage` after mount via
+ * `useEffect`. This prevents hydration mismatches caused by reading
+ * `localStorage` during the initial render on the client.
  *
  * Supports functional updates exactly like `useState`:
  *   setValue(prev => prev + 1)
@@ -19,34 +19,34 @@ function useLocalStorage<T>(
   key: string,
   initialValue: T
 ): [T, (value: T | ((val: T) => T)) => void] {
-  // Initialise state from localStorage (or fall back to initialValue).
-  const [storedValue, setStoredValue] = useState<T>(() => {
-    if (typeof window === 'undefined') {
-      return initialValue;
-    }
+  // Always start with initialValue — matches the server render exactly.
+  const [storedValue, setStoredValue] = useState<T>(initialValue);
+
+  // After mount, sync the real value from localStorage.
+  useEffect(() => {
     try {
       const item = window.localStorage.getItem(key);
-      return item !== null ? (JSON.parse(item) as T) : initialValue;
+      if (item !== null) {
+        setStoredValue(JSON.parse(item) as T);
+      }
     } catch {
-      return initialValue;
+      // localStorage unavailable — keep initialValue.
     }
-  });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [key]);
 
   const setValue = useCallback(
     (value: T | ((val: T) => T)) => {
       setStoredValue((prev) => {
-        // Resolve functional updates the same way useState does.
         const resolved =
           typeof value === 'function'
             ? (value as (val: T) => T)(prev)
             : value;
 
-        if (typeof window !== 'undefined') {
-          try {
-            window.localStorage.setItem(key, JSON.stringify(resolved));
-          } catch {
-            // localStorage unavailable — state is still updated in memory.
-          }
+        try {
+          window.localStorage.setItem(key, JSON.stringify(resolved));
+        } catch {
+          // localStorage unavailable — state is still updated in memory.
         }
 
         return resolved;
